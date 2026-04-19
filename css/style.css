@@ -443,8 +443,14 @@ main {
   display: none;
 }
 
-.tab-content.active, .idea-content.active {
+.tab-content.active {
   display: block;
+}
+
+.idea-content.active {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(340px, 1fr));
+  gap: var(--space-md);
 }
 
 /* ============================================
@@ -654,11 +660,6 @@ main {
 /* ============================================
    Actionable Ideas
    ============================================ */
-.idea-content {
-  display: grid;
-  grid-template-columns: repeat(auto-fill, minmax(340px, 1fr));
-  gap: var(--space-md);
-}
 
 .idea-card {
   background: var(--bg-card);
@@ -928,7 +929,7 @@ footer {
     grid-template-columns: 1fr;
   }
 
-  .idea-content {
+  .idea-content.active {
     grid-template-columns: 1fr;
   }
 
