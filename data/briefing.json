@@ -1,0 +1,254 @@
+{
+  "date": "April 19, 2026",
+  "generatedAt": "7:30 AM SGT",
+  "lastUpdated": "2026-04-19T07:30:00+08:00",
+  "regime": {
+    "label": "Mixed / Rotational",
+    "metrics": [
+      { "label": "S&P 500", "value": "7,126", "change": "+1.20%" },
+      { "label": "Nasdaq", "value": "24,468", "change": "+1.40%" },
+      { "label": "VIX", "value": "17.48", "change": "-2.56%" },
+      { "label": "10Y Yield", "value": "4.25%", "change": "-7bps" },
+      { "label": "2Y Yield", "value": "3.71%", "change": "-3bps" },
+      { "label": "DXY", "value": "98.20", "change": "-0.4%" },
+      { "label": "WTI Oil", "value": "$82-96", "change": "-10%+" },
+      { "label": "Gold", "value": "$4,735", "change": "+2% MTD" },
+      { "label": "Copper", "value": "+9%", "change": "MTD" },
+      { "label": "STI", "value": "Firming", "change": "Banks leading" },
+      { "label": "SORA", "value": "0.85-1.06%", "change": "Rising" },
+      { "label": "SGD/USD", "value": "Strengthening", "change": "MAS reval" }
+    ]
+  },
+  "executiveSummary": [
+    { "text": "Strait of Hormuz reopened — oil crashes 10%+, inflation pressure easing but supply won't normalize for months", "sentiment": "bullish", "tag": "Macro" },
+    { "text": "TSMC and ASML beat earnings but stocks fell — classic sell-the-news warning that AI semi expectations are at ceiling", "sentiment": "mixed", "tag": "Semis" },
+    { "text": "MAS tightens monetary policy into SG Q1 GDP contraction (-0.3% QoQ) — banks benefit from NIM expansion, REITs hurt", "sentiment": "mixed", "tag": "Singapore" },
+    { "text": "SG banks sustaining 5-6% dividend yields with NIM declines reversing — income engine intact", "sentiment": "bullish", "tag": "Dividends" },
+    { "text": "Copper +9% MTD, gold +2% MTD — commodity supercycle thesis playing out, physical bottlenecks tightening", "sentiment": "bullish", "tag": "Scarcity" },
+    { "text": "Samsung/SK Hynix win HBM4 slots — EWY (HBM proxy) thesis validated, Korean semi duopoly tightening grip", "sentiment": "bullish", "tag": "HBM" },
+    { "text": "US tariff regime persists — 100% pharma tariffs, adjusted metals duties, $1.3T revenue over 2026-35", "sentiment": "bearish", "tag": "Trade" },
+    { "text": "VIX at 17.48 — complacency risk. Geopolitical de-escalation may be premature, Iran situation still fluid", "sentiment": "mixed", "tag": "Risk" }
+  ],
+  "portfolioNews": {
+    "usGlobal": [
+      {
+        "what": "TSMC Q1 beat, guides capex to $52-56B high end — stock fell post-earnings",
+        "why": "Sell-the-news on AI semis. The bar is so high that beating isn't enough. Equipment names (AMAT/KLAC/LRCX) also dipped despite bullish capex signal.",
+        "tickers": ["TSM", "ASML", "AMAT", "KLAC", "LRCX", "NVDA"],
+        "implication": "mixed",
+        "urgency": "Medium"
+      },
+      {
+        "what": "ASML lifts 2026 forecast to €36-40B revenue on surging AI chip demand — stock still sank",
+        "why": "Fundamentals accelerating but valuation ceiling hit. 'Picks and shovels' thesis intact but entry price matters.",
+        "tickers": ["ASML", "TSM", "SNPS"],
+        "implication": "mixed",
+        "urgency": "Medium"
+      },
+      {
+        "what": "BofA hikes 2026 chips forecast to $1.3T — NVDA, AVGO, AMD named as top drivers",
+        "why": "Revenue forecast raised $300B in 4 months. Capex wave is real but expectations may be running ahead of near-term execution.",
+        "tickers": ["NVDA", "AVGO", "MU"],
+        "implication": "bullish",
+        "urgency": "Low"
+      },
+      {
+        "what": "Samsung & SK Hynix win Vera Rubin HBM4 supply slots, widening lead over Micron",
+        "why": "HBM bottleneck between GPU and training throughput. Korean duopoly tightening. Micron losing HBM4 share specifically.",
+        "tickers": ["EWY", "MU"],
+        "implication": "bullish",
+        "urgency": "Low"
+      }
+    ],
+    "singapore": [
+      {
+        "what": "MAS tightens S$NEER policy band, raises inflation forecasts to 1.5-2.5%",
+        "why": "SG Q1 GDP contracted -0.3% QoQ but MAS tightening on Iran-war inflation fears. SGD strengthening = good for purchasing power, bad for exporters.",
+        "tickers": ["DBS", "OCBC", "UOB", "S-REITs"],
+        "implication": "mixed",
+        "urgency": "Medium"
+      },
+      {
+        "what": "SG bank dividends sustained — DBS 6.1% yield, OCBC/UOB ~5.4%",
+        "why": "NIM declines reversing in Q4. OCBC outperforming DBS and UOB in 2026. Income engine intact and growing.",
+        "tickers": ["DBS", "OCBC", "UOB"],
+        "implication": "bullish",
+        "urgency": "Low"
+      },
+      {
+        "what": "PhillipCapital replaces Singtel with Sembcorp in Absolute 10 portfolio",
+        "why": "Sembcorp's Australian acquisition earnings-accretive. Energy transition capex thesis aligns with Sembcorp's pivot.",
+        "tickers": ["U96", "Z74"],
+        "implication": "mixed",
+        "urgency": "Low"
+      }
+    ],
+    "commodities": [
+      {
+        "what": "Strait of Hormuz reopened — oil crashes 10%+ in under 2 hours",
+        "why": "Geopolitical de-escalation. Iran war premium deflating. But infrastructure damage means supply won't normalize for months — structural deficit persists.",
+        "tickers": ["COPX", "URNM", "GRID", "GLD"],
+        "implication": "mixed",
+        "urgency": "Medium"
+      },
+      {
+        "what": "Copper surges +9% MTD on supply constraints + AI data center demand",
+        "why": "Copper is the irreplaceable physical bottleneck of AI buildout — wiring, transformers, grid. Structural demand story is 5+ years.",
+        "tickers": ["COPX"],
+        "implication": "bullish",
+        "urgency": "Low"
+      },
+      {
+        "what": "Sprott calls new commodity supercycle — copper, uranium, critical minerals in focus",
+        "why": "Energy crisis + AI buildout + electrification = structural commodity demand. Nuclear policy shifting globally post-Iran war.",
+        "tickers": ["URNM", "COPX", "SLV", "GLD"],
+        "implication": "bullish",
+        "urgency": "Low"
+      },
+      {
+        "what": "Gold holding above $4,700 — structural bull intact despite risk-on rotation",
+        "why": "Weak DXY (98.20), persistent deficit concerns, and central bank buying support gold. Iran war de-escalation creates short-term headwind but structural floor remains.",
+        "tickers": ["GLD"],
+        "implication": "bullish",
+        "urgency": "Low"
+      }
+    ]
+  },
+  "narratives": [
+    {
+      "title": "Strait of Hormuz open — buy everything",
+      "description": "Relief rally narrative spreading across WSB and Reddit. Oil crash interpreted as green light for risk assets. Short-covering, not new positioning.",
+      "stage": "crowded",
+      "source": "WSB, r/investing",
+      "tickers": ["SPY", "QQQ"],
+      "priceImpact": "Short-term relief, not regime change"
+    },
+    {
+      "title": "AI capex is $700B+ and just getting started",
+      "description": "Tech Twitter amplifying BofA/Jensen Huang capex numbers. Real but already priced 2-3 years forward. TSMC/ASML stock action confirms ceiling.",
+      "stage": "maturing",
+      "source": "X.com, tech analysts",
+      "tickers": ["NVDA", "TSM", "MSFT", "AMZN", "GOOG"],
+      "priceImpact": "Bullish thesis but entry price matters"
+    },
+    {
+      "title": "Nuclear is the energy story of 2026",
+      "description": "Iran war made energy security a sovereign priority. Nuclear policy shifting globally. SMR and uranium stocks gaining institutional interest.",
+      "stage": "emerging",
+      "source": "Seeking Alpha, Yahoo Finance, policy circles",
+      "tickers": ["URNM", "GRID"],
+      "priceImpact": "Structurally bullish, early innings"
+    },
+    {
+      "title": "Sell semi equipment, buy hyperscalers",
+      "description": "Reddit narrative that equipment names are overbought after TSMC capex guidance. Dip is positioning washout, not fundamental change.",
+      "stage": "fading",
+      "source": "r/investing",
+      "tickers": ["AMAT", "KLAC", "LRCX"],
+      "priceImpact": "Likely wrong — capex guidance supports equipment"
+    }
+  ],
+  "secondOrderEffects": [
+    {
+      "text": "MAS tightening + SGD strength = hidden drag on SG exporters and REITs. Your REIT position is small (2.79% of risk assets) so manageable, but watch refinancing costs closely.",
+      "implication": "REIT refinancing costs rise, but banks benefit from wider NIMs"
+    },
+    {
+      "text": "Oil crash = capex cuts for E&P, but AI data center buildout is energy-insensitive. Hyperscalers build regardless of oil prices because compute demand is non-negotiable. GRID and TSM/ASML benefit from this decoupling.",
+      "implication": "Energy transition and AI buildout are decoupling from oil prices"
+    },
+    {
+      "text": "Weak DXY (98.20) is a structural tailwind for gold and commodities. If dollar continues weakening on US deficit concerns and tariff disruption, GLD/COPX/URNM sleeve has support.",
+      "implication": "Commodity sleeve may benefit from prolonged USD weakness"
+    },
+    {
+      "text": "Trump pharma tariffs (100%) could reconfigure drug supply chains, indirectly supporting metals/commodities as industrial reshoring drives demand for physical materials.",
+      "implication": "Supply chain reconfiguration = infrastructure and metals demand"
+    },
+    {
+      "text": "SG Q1 GDP contraction (-0.3% QoQ) is a yellow flag. If Q2 doesn't recover, bank earnings could face credit quality questions. NIM expansion dominates for now, but monitor closely.",
+      "implication": "Bank dividends secure in near-term but watch credit quality"
+    }
+  ],
+  "actionableIdeas": {
+    "investment": [
+      {
+        "thesis": "Add to COPX on any pullback — copper is the irreplaceable physical bottleneck of the AI buildout",
+        "trigger": "COPX pullback 5-10% from current levels",
+        "whyNow": "Copper +9% MTD but structural demand story (grid + data centers + EVs) is 5+ years. Your 3% allocation could support 4-5%.",
+        "invalidator": "Global recession kills commodity demand across the board",
+        "horizon": "Long-term investment"
+      },
+      {
+        "thesis": "Hold EWY with conviction — HBM4 supply slot wins confirm thesis",
+        "trigger": "Any Korea geopolitical discount",
+        "whyNow": "Samsung/SK Hynix securing Vera Rubin HBM4 slots. Korean market still cheap relative to semi exposure.",
+        "invalidator": "HBM demand collapse or Korean won destabilization",
+        "horizon": "Long-term investment"
+      }
+    ],
+    "trading": [
+      {
+        "thesis": "If TSM bounces Mon-Tue from Friday's sell-the-news dip, consider a small add",
+        "trigger": "TSM holds support and bounces 3%+ from Friday close",
+        "whyNow": "TSMC at $52-56B capex with AI/HPC demand surging — fundamentals accelerating. The dip may be a gift.",
+        "invalidator": "Semi equipment continues bleeding into next week — would signal broader de-risking",
+        "horizon": "Short-term trade"
+      }
+    ],
+    "watchlist": [
+      {
+        "thesis": "Monitor SG REITs for entry — S-REITs down 7% in March on SORA fears",
+        "trigger": "MAS pauses after this tightening (likely) and REITs stabilize",
+        "whyNow": "Your small position (2.79%) could be expanded to 3.5-4% at better prices. Worst may be priced in.",
+        "invalidator": "SORA continues rising sharply, crushing REIT financing economics",
+        "horizon": "Medium-term swing"
+      }
+    ]
+  },
+  "riskWatch": [
+    {
+      "name": "AI semi expectations reset",
+      "level": "Medium",
+      "description": "TSM/ASML 'sell the news' extends beyond post-earnings dip. If momentum doesn't recover by mid-week, signals broader semi de-risking.",
+      "mitigation": "NVDA underweight is already defensive. Diversified across semi stack (equipment, EDA, foundry)."
+    },
+    {
+      "name": "SG recession risk",
+      "level": "Low",
+      "description": "Q2 GDP negative would raise bank credit quality questions. NIM expansion dominates now but watch NPL ratios in next earnings.",
+      "mitigation": "Bank dividends secure. SG bank position is income, not growth."
+    },
+    {
+      "name": "Tariff escalation disrupts tech supply chains",
+      "level": "Medium",
+      "description": "100% pharma tariffs and adjusted metals duties could escalate. TSMC Arizona fab partially hedges but semi equipment names more exposed.",
+      "mitigation": "Equipment names are globally diversified. Watch for tariff exemptions on semiconductor equipment."
+    },
+    {
+      "name": "Oil re-spike if Hormuz closure reverses",
+      "level": "Low",
+      "description": "Iran situation still fluid. If Hormuz closes again, oil spikes back to $120+. COPX/URNM/GRID actually benefit. GLD is a hedge.",
+      "mitigation": "Commodity positions are thesis-driven hedges against exactly this scenario."
+    },
+    {
+      "name": "VIX complacency",
+      "level": "Medium",
+      "description": "VIX at 17.48 despite Iran war, tariff uncertainty, and GDP contraction signals. Market pricing perfection.",
+      "mitigation": "Your 40.4% foundation (cash + CPF) provides genuine dry powder for any dislocation."
+    }
+  ],
+  "keyEvents": [
+    { "icon": "📊", "text": "TSM/ASML post-earnings follow-through — buy the dip or continue selling?", "source": "Mon-Tue US session" },
+    { "icon": "🛢️", "text": "Oil settlement after Hormuz reopening volatility — watch where Brent/WTI stabilize", "source": "Ongoing" },
+    { "icon": "⚔️", "text": "Iran war escalation/reversal risk — any Hormuz closure reversal would spike oil", "source": "Geopolitical" },
+    { "icon": "🇸🇬", "text": "MAS policy digestion in STI and REIT pricing — watch for SORA direction this week", "source": "SG market" },
+    { "icon": "💰", "text": "US tariff developments — pharma and metals tariff implementation details", "source": "White House / USTR" },
+    { "icon": "📈", "text": "Copper continuation — watch if +9% MTD extends or consolidates", "source": "LME / COMEX" }
+  ],
+  "bottomLine": {
+    "whatMatters": "Strait of Hormuz reopening is the biggest macro event. Oil crashing 10%+ is inflation-positive. But TSMC/ASML selling off despite beats is a warning — AI semi expectations at ceiling. MAS tightening into GDP contraction is uncomfortable but bank-positive.",
+    "whatToDo": "Hold all positions. No panic, no FOMO. Watch TSM/semi equipment for a bounce Monday — potential dry powder deploy if the dip extends. Scarcity thesis (GLD, COPX, URNM, EWY) is playing out exactly as designed — let it compound. SG bank dividends secure and growing — collect and reinvest.",
+    "whatToIgnore": "WSB 'buy everything' Hormuz euphoria. 'AI capex is infinite' narrative — real but priced. Oil volatility — structural deficit persists but panic premium deflating. Short-term SG REIT noise — your position is small and the yield compensates."
+  }
+}

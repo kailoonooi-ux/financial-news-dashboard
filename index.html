@@ -1,0 +1,161 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Financial Intelligence Briefing</title>
+  <link rel="stylesheet" href="css/style.css">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800&family=JetBrains+Mono:wght@400;500;600&display=swap" rel="stylesheet">
+  <link rel="icon" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'><text y='.9em' font-size='90'>📊</text></svg>">
+</head>
+<body>
+  <!-- Loading Screen -->
+  <div id="loading" class="loading-screen">
+    <div class="loading-content">
+      <div class="loading-icon">📊</div>
+      <div class="loading-text">Loading Intelligence Briefing...</div>
+      <div class="loading-bar"><div class="loading-bar-fill"></div></div>
+    </div>
+  </div>
+
+  <header id="header">
+    <div class="header-content">
+      <div class="header-left">
+        <h1 class="logo">📊 Financial Intelligence Briefing</h1>
+        <div class="header-meta">
+          <span class="date" id="briefing-date">—</span>
+          <span class="separator">|</span>
+          <span class="time">7:30 AM SGT</span>
+          <span class="separator">|</span>
+          <span class="regime-badge" id="regime-badge">—</span>
+        </div>
+      </div>
+      <div class="header-right">
+        <div class="last-updated" id="last-updated">Last updated: —</div>
+      </div>
+    </div>
+  </header>
+
+  <main id="dashboard">
+    <!-- Section 1: Executive Summary -->
+    <section id="executive-summary" class="section">
+      <div class="section-header">
+        <h2>⚡ Executive Summary</h2>
+        <span class="section-badge">Top Signal</span>
+      </div>
+      <div class="summary-cards" id="summary-cards">
+        <!-- Populated by JS -->
+      </div>
+    </section>
+
+    <!-- Section 2: Market Regime Snapshot -->
+    <section id="market-regime" class="section">
+      <div class="section-header">
+        <h2>📈 Market Regime Snapshot</h2>
+      </div>
+      <div class="regime-grid" id="regime-grid">
+        <!-- Populated by JS -->
+      </div>
+    </section>
+
+    <!-- Section 3: Portfolio-Relevant News -->
+    <section id="portfolio-news" class="section">
+      <div class="section-header">
+        <h2>🎯 Portfolio-Relevant News</h2>
+      </div>
+      <div class="tabs">
+        <button class="tab active" data-tab="us-global">🇺🇸 US / Global</button>
+        <button class="tab" data-tab="singapore">🇸🇬 Singapore</button>
+        <button class="tab" data-tab="commodities">⛏️ Commodities / Scarcity</button>
+      </div>
+      <div class="tab-content active" id="tab-us-global">
+        <div class="news-list" id="news-us-global"></div>
+      </div>
+      <div class="tab-content" id="tab-singapore">
+        <div class="news-list" id="news-singapore"></div>
+      </div>
+      <div class="tab-content" id="tab-commodities">
+        <div class="news-list" id="news-commodities"></div>
+      </div>
+    </section>
+
+    <!-- Section 4: Narrative Breakouts -->
+    <section id="narratives" class="section">
+      <div class="section-header">
+        <h2>🔥 Narrative Breakouts</h2>
+        <span class="section-subtitle">X.com / Reddit / Social Sentiment</span>
+      </div>
+      <div class="narrative-grid" id="narrative-grid">
+        <!-- Populated by JS -->
+      </div>
+    </section>
+
+    <!-- Section 5: Hidden Second-Order Effects -->
+    <section id="second-order" class="section">
+      <div class="section-header">
+        <h2>🔍 Hidden Second-Order Effects</h2>
+        <span class="section-subtitle">What the market isn't pricing</span>
+      </div>
+      <div class="effects-list" id="effects-list">
+        <!-- Populated by JS -->
+      </div>
+    </section>
+
+    <!-- Section 6: Actionable Ideas -->
+    <section id="actionable-ideas" class="section">
+      <div class="section-header">
+        <h2>💡 Actionable Ideas</h2>
+      </div>
+      <div class="ideas-tabs">
+        <button class="idea-tab active" data-idea-tab="investment">🏗️ Investment</button>
+        <button class="idea-tab" data-idea-tab="trading">⚡ Trading</button>
+        <button class="idea-tab" data-idea-tab="watchlist">👁️ Watchlist</button>
+      </div>
+      <div class="idea-content active" id="ideas-investment"></div>
+      <div class="idea-content" id="ideas-trading"></div>
+      <div class="idea-content" id="ideas-watchlist"></div>
+    </section>
+
+    <!-- Section 7: Portfolio Risk Watch -->
+    <section id="risk-watch" class="section">
+      <div class="section-header">
+        <h2>⚠️ Portfolio Risk Watch</h2>
+      </div>
+      <div class="risk-grid" id="risk-grid">
+        <!-- Populated by JS -->
+      </div>
+    </section>
+
+    <!-- Section 8: Today's Key Events -->
+    <section id="key-events" class="section">
+      <div class="section-header">
+        <h2>📅 What to Pay Attention To Today</h2>
+      </div>
+      <div class="events-list" id="events-list">
+        <!-- Populated by JS -->
+      </div>
+    </section>
+
+    <!-- Section 9: Bottom Line -->
+    <section id="bottom-line" class="section bottom-line-section">
+      <div class="section-header">
+        <h2>🏁 Bottom Line</h2>
+      </div>
+      <div class="bottom-line-grid" id="bottom-line-grid">
+        <!-- Populated by JS -->
+      </div>
+    </section>
+  </main>
+
+  <footer>
+    <div class="footer-content">
+      <span>Generated by Rocky 🥊 — Personal Financial Intelligence System</span>
+      <span class="footer-disclaimer">For personal use only. Not financial advice.</span>
+    </div>
+  </footer>
+
+  <script src="js/app.js"></script>
+</body>
+</html>
