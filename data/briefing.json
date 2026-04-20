@@ -1,311 +1,402 @@
 {
   "executiveSummary": [
     {
-      "text": "Strait of Hormuz reopened — Iran declares passage 'completely open' during ceasefire; oil crashes 10%+ to ~$82 WTI, risk-off reversal in energy",
-      "sentiment": "bullish",
-      "tag": "GEOPOLITICS"
+      "text": "US stocks closed slightly lower Monday as Iran re-closed Strait of Hormuz over the weekend, reversing Friday's record-high surge. S&P 500 -0.22%, Nasdaq -0.25%, Dow flat.",
+      "sentiment": "cautious",
+      "tag": "geopolitics"
     },
     {
-      "text": "S&P 500 hits 7,100 all-time high, Nasdaq longest win streak since 1992 — markets pricing in end of Iran conflict",
-      "sentiment": "bullish",
-      "tag": "US MARKETS"
-    },
-    {
-      "text": "TSMC & ASML report blowout Q1 but stocks sell off — sky-high expectations now the hurdle, not fundamentals. AI demand 'extremely robust'",
-      "sentiment": "neutral",
-      "tag": "SEMIS"
-    },
-    {
-      "text": "Gold at $4,831/oz, copper at $6.10/lb near record — structural inflation + AI demand thesis intact, commodities remain scarcity play",
-      "sentiment": "bullish",
-      "tag": "COMMODITIES"
-    },
-    {
-      "text": "Fed rate cuts delayed — Cleveland Fed inflation nowcasts climbing on energy shock; 'higher for longer' back on the table",
+      "text": "Oil prices spiked 6-7% with Brent at $95.48 and WTI at $89.61 as Hormuz closure and tanker boarding reignited supply fears. Energy sector outperformed.",
       "sentiment": "bearish",
-      "tag": "MACRO"
+      "tag": "oil"
+    },
+    {
+      "text": "Kevin Warsh's Fed Chair confirmation hearing today at 10am — markets watching for rate path signals. Prediction markets see no rate change after July 2026 at 78.5%.",
+      "sentiment": "neutral",
+      "tag": "fed"
+    },
+    {
+      "text": "Gold holds near record at $4,833/oz, silver at $80.87 — geopolitical risk and dollar weakness sustaining safe-haven bid. Copper at $6.03/lb, up 11% monthly.",
+      "sentiment": "bullish",
+      "tag": "metals"
+    },
+    {
+      "text": "Lam Research (LRCX) reports Q3 earnings tomorrow April 22 — key for semicap cycle validation. ASML and TSMC already posted strong results but stocks sold off.",
+      "sentiment": "neutral",
+      "tag": "semis"
     }
   ],
   "regime": {
-    "label": "Risk-On with Geopolitical Overlay",
+    "label": "Geopolitical Risk-On with Hedging Overlay",
     "metrics": [
-      {"label": "S&P 500", "value": "7,041", "change": "+1.0%"},
-      {"label": "Nasdaq", "value": "Record High", "change": "Longest streak since 1992"},
-      {"label": "WTI Oil", "value": "~$82", "change": "-10%+ (Hormuz open)"},
-      {"label": "Gold", "value": "$4,831/oz", "change": "+0.8%"},
-      {"label": "Copper", "value": "$6.10/lb", "change": "+9.9% MTD"},
-      {"label": "SGD/USD", "value": "0.7876", "change": "Stable"},
-      {"label": "10Y US Treasury", "value": "Elevated", "change": "Rate cut hopes fading"},
-      {"label": "VIX", "value": "Declining", "change": "Conflict de-escalation"}
+      {
+        "label": "S&P 500",
+        "value": "7,110",
+        "change": "-0.22%"
+      },
+      {
+        "label": "Nasdaq",
+        "value": "24,408",
+        "change": "-0.25%"
+      },
+      {
+        "label": "VIX",
+        "value": "19.08",
+        "change": "+8.2%"
+      },
+      {
+        "label": "Brent Crude",
+        "value": "$95.48",
+        "change": "+5.64%"
+      },
+      {
+        "label": "Gold",
+        "value": "$4,833/oz",
+        "change": "-0.10%"
+      },
+      {
+        "label": "Copper",
+        "value": "$6.03/lb",
+        "change": "-1.11%"
+      },
+      {
+        "label": "Uranium",
+        "value": "$86.65/lb",
+        "change": "+0.41%"
+      },
+      {
+        "label": "DXY",
+        "value": "98.10",
+        "change": "-0.12%"
+      },
+      {
+        "label": "10Y Yield",
+        "value": "4.24%",
+        "change": "-7bps"
+      },
+      {
+        "label": "SGD/USD",
+        "value": "1.269",
+        "change": "+0.24%"
+      },
+      {
+        "label": "STI",
+        "value": "5,008",
+        "change": "+0.50%"
+      }
     ]
   },
   "portfolioNews": {
     "usGlobal": [
       {
-        "what": "TSMC Q1 profit up 58% YoY, HPC/AI hits 61% of revenue, gross margin 66%. Raised annual forecast. Stock fell ~3% on 'buy the rumor, sell the news'.",
-        "why": "Core scarcity holding — AI demand is not slowing. Sell-off is expectations reset, not fundamentals deterioration. Capex $52-56B signals massive capacity build.",
-        "tickers": ["TSM"],
-        "urgency": "medium",
-        "implication": "Hold TSM firmly. The 'sell the news' pattern is familiar — same thing happened to NVDA last quarter. Capacity remains the gating factor, not demand."
-      },
-      {
-        "what": "ASML raised 2026 revenue forecast on AI demand, but stock dropped 6.5% — EUV machine targets (80 units in 2027 vs hoped 90) disappointed. China sales shrinking.",
-        "why": "Key equipment monopoly in scarcity thesis. ASML is the only company making EUV machines at $400M each. Disappointment is on pace, not direction.",
-        "tickers": ["ASML"],
-        "urgency": "medium",
-        "implication": "ASML weakness is a buying opportunity. The EUV machine constraint IS the moat — demand far outstrips supply for the foreseeable future."
-      },
-      {
-        "what": "Lam Research (LRCX) reporting Q3 earnings Wed 4/22 — expected $5.7B revenue (+21% YoY), $1.35 EPS (+30% YoY). Bank of America names LRCX among top 8 semiconductor stocks.",
-        "why": "Direct portfolio holding in equipment space. Strong earnings would validate the capex cycle thesis.",
-        "tickers": ["LRCX", "KLAC", "AMAT"],
+        "what": "Iran re-closes Strait of Hormuz; oil spikes 6-7%",
+        "why": "Weekend escalation reverses Friday's optimism. 20% of global oil transit threatened. Energy stocks rallied; transport and consumer discretionary lagged.",
+        "tickers": [
+          "XLE",
+          "CVX",
+          "XOM"
+        ],
         "urgency": "high",
-        "implication": "Watch LRCX earnings closely — beat could lift the entire equipment complex (KLAC, AMAT). Miss would signal capex caution."
+        "implication": "Short-term inflation risk from energy costs; supports oil/energy positions but weighs on rate-cut hopes. Energy portion of your scarcity thesis gets validated."
       },
       {
-        "what": "Micron (MU) stock takes a breather after strong April rally, down 4% on profit-taking. AI memory demand narrative remains intact.",
-        "why": "Memory is the overlooked layer of AI infrastructure — HBM demand from NVDA's next-gen chips driving MU's growth.",
-        "tickers": ["MU"],
-        "urgency": "low",
-        "implication": "MU pullback is healthy consolidation. Hold position — HBM ramp is a 2026-2027 story."
+        "what": "ASML raised 2026 guidance to €36-40B after Q1 beat (€8.8B rev, €2.8B net income); stock still sold off post-earnings",
+        "why": "Classic buy-the-rumor-sell-the-news. Strong AI-driven demand confirmed but valuation already rich. TSMC also posted strong results with stock dip.",
+        "tickers": [
+          "ASML",
+          "TSM"
+        ],
+        "urgency": "medium",
+        "implication": "AI capex cycle intact — your scarcity thesis on semicap equipment remains validated. Post-earnings dips may be accumulation opportunities."
       },
       {
-        "what": "Nvidia-OpenAI $100B deal is 'on ice' per WSJ (Jan report). Meanwhile, Nvidia launched Ising for quantum computing (Apr 14), Cerebras filed for IPO, and Nvidia denied PC maker acquisition rumor.",
-        "why": "NVDA ecosystem expansion continues despite individual deal stumbles. Quantum play via Ising is a new vertical.",
-        "tickers": ["NVDA"],
+        "what": "Lam Research reports Q3 FY26 earnings tomorrow April 22 — consensus EPS $1.35, rev $5.70B",
+        "why": "LRCX is a key portfolio holding and critical for semicap cycle validation. Q2 beat by 8.7% on EPS. BNP Paribas warns semicap stocks may peak late 2026.",
+        "tickers": [
+          "LRCX",
+          "AMAT",
+          "KLAC"
+        ],
+        "urgency": "high",
+        "implication": "Watch LRCX guidance closely — if beat/raise, confirms your equipment scarcity thesis. BNP peak warning worth noting for position sizing."
+      },
+      {
+        "what": "NVIDIA next earnings May 20 — consensus EPS $1.77; stock flat YTD after April rally from March lows",
+        "why": "NVDA recovered in April but still underperforming broader market. May 20 is the next catalyst. Options typically see 8-10% swing post-earnings.",
+        "tickers": [
+          "NVDA"
+        ],
         "urgency": "low",
-        "implication": "NVDA remains the center of the AI universe. Individual deal delays don't change the infrastructure demand thesis. Ising/quantum is a long-term option."
+        "implication": "Core position — no action needed until earnings approach. Current flat YTD could mean upside if Q1 data center revenue surprises again."
+      },
+      {
+        "what": "Warsh Fed Chair confirmation hearing today at 10am ET",
+        "why": "Warsh is Trump's pick to replace Powell. Key question: will he signal hawkish or dovish tilt? Prediction markets price no rate change after July 2026.",
+        "tickers": [
+          "TLT",
+          "SPY",
+          "QQQ"
+        ],
+        "urgency": "high",
+        "implication": "If Warsh signals hawkish stance, growth/tech could pull back. If dovish, risk-on could resume. Your barbell structure hedges either way."
       }
     ],
     "singapore": [
       {
-        "what": "CapitaLand Ascendas REIT preferential offering sees 170% excess applications — massive oversubscription for $900M fund raise. Units listing April 23.",
-        "why": "Direct REIT holding. Oversubscription signals strong institutional demand for quality S-REITs despite rate headwinds.",
-        "tickers": ["A17U"],
+        "what": "STI gained 0.5% to 5,008 — regional rebound led by MLT; Singapore banks resilient",
+        "why": "Safe-haven flows into Singapore amid Middle East uncertainty. OCBC hit all-time high in April with 4.3% forward yield.",
+        "tickers": [
+          "D05",
+          "O39",
+          "U11",
+          "M44U"
+        ],
         "urgency": "medium",
-        "implication": "Bullish signal for CLAR and S-REITs broadly. The $1.4B acquisition pipeline + oversubscription shows institutional conviction. Hold and consider adding on weakness."
+        "implication": "SG dividend portfolio benefiting from risk-off rotation. OCBC outperforming DBS and UOB in 2026 — JP Morgan downgrade of OCBC to underweight is contrarian signal."
       },
       {
-        "what": "OCBC outpacing DBS and UOB in 2026 stock performance. OCBC 4.3% dividend yield still attractive. DBS guided 2026 net profit slightly below 2025 on rate headwinds.",
-        "why": "Core Singapore bank holdings. OCBC's relative outperformance is notable but DBS still leads on dividend yield.",
-        "tickers": ["D05", "O39", "U11"],
-        "urgency": "low",
-        "implication": "Singapore banks remain foundation holdings. Rate headwind is real but wealth management and fee income offsetting. No action needed."
+        "what": "CapitaLand Ascendas REIT receives 170% excess applications for preferential offering at S$2.35/unit",
+        "why": "Strong demand signals investor confidence in industrial REIT recovery. CICT also acquiring retail complex for S$3B.",
+        "tickers": [
+          "A17U",
+          "CICT"
+        ],
+        "urgency": "medium",
+        "implication": "REIT recovery thesis gaining traction. Your Ascendas, CICT, MLT, FCT positions well-positioned for rate stabilization tailwind."
       },
       {
-        "what": "Keppel (BN4) analysts revising target price upward to ~S$14 on strong earnings prospects. Ex-dividend date April 27 (S$0.21). Stock at S$11.93.",
-        "why": "Keppel is a transition story — from offshore to data centers, renewables and urban development. Earnings momentum building.",
-        "tickers": ["BN4"],
+        "what": "PhillipCapital replaces Singtel with Sembcorp in Absolute 10 portfolio",
+        "why": "Sembcorp's renewables pivot and Alinta Energy acquisition ($2.1B loan) driving earnings upgrade. Singtel's 45% 2025 rally may have run ahead.",
+        "tickers": [
+          "U96",
+          "Z74"
+        ],
         "urgency": "low",
-        "implication": "Keppel upgrading thesis playing out. Hold through dividend. Target upside ~17% from current."
+        "implication": "Both holdings have different catalysts — Sembcorp on energy transition, Singtel on value unlock from associates. Hold both."
       }
     ],
     "commodities": [
       {
-        "what": "Gold at $4,831/oz — structural inflation regime + geopolitical risk + central bank buying keeping bid firm. Silver at $78.63/oz.",
-        "why": "Core scarcity holding. Gold/Silver ratio at ~61 — silver still relatively cheap vs gold. Permanent inflation narrative is KL's thesis vindicated.",
-        "tickers": ["Gold", "Silver"],
+        "what": "Gold holds near record at $4,833/oz; WGC warns equity rally on 'fragile foundations'",
+        "why": "Central bank buying (China), weaker dollar, and Hormuz risk all supporting gold. Silver at $80.87.",
+        "tickers": [
+          "GLD",
+          "SLV",
+          "GDX"
+        ],
+        "urgency": "medium",
+        "implication": "Your gold position is a core hedge performing as designed. No need to add — let it ride as geopolitical risk hedge."
+      },
+      {
+        "what": "Copper at $6.03/lb, up 11% monthly — AI data center and energy transition demand accelerating",
+        "why": "Supply deficit structural. Copper up 27% YoY. Tariff-related front-running also contributing.",
+        "tickers": [
+          "COPX",
+          "FCX",
+          "BHP"
+        ],
+        "urgency": "medium",
+        "implication": "Copper scarcity thesis directly aligned with your AI infra + metals positions. Structural demand from data centers and grid buildout."
+      },
+      {
+        "what": "Uranium at $86.65/lb, up 33% YoY — nuclear renaissance theme intact",
+        "why": "AI energy demand driving nuclear expansion globally. Cameco highlighted as top 2026 energy pick.",
+        "tickers": [
+          "URA",
+          "CCJ",
+          "UEC"
+        ],
         "urgency": "low",
-        "implication": "Hold metals firmly. Inflation is 'permanent' per Kitco analysis. Oil crash doesn't break the structural inflation story — it's energy-independent now."
-      },
-      {
-        "what": "Copper surging near $6.10/lb (+9.9% MTD, +32.6% YoY). AI data center demand + supply shortage = structural bull. S&P Global predicts 50% demand increase by 2040.",
-        "why": "Copper is the 'new oil' for AI infrastructure. Data centers alone adding 110K tons additional demand by 2026. Supply can't keep up.",
-        "tickers": ["Copper", "GRID"],
-        "urgency": "medium",
-        "implication": "Copper position is the smartest trade in the portfolio. This is the AI infrastructure bottleneck nobody talks about. Hold and potentially add."
-      },
-      {
-        "what": "Uranium/nuclear stocks rallying — Iran war energy shock accelerating nuclear adoption in Asia and Africa. Uranium term prices at $90-93/lb.",
-        "why": "Uranium thesis getting a geopolitical catalyst. Nuclear is the only scalable zero-carbon baseload for AI data centers.",
-        "tickers": ["Uranium"],
-        "urgency": "medium",
-        "implication": "Uranium holding thesis strengthening. The Middle East conflict has made energy security a national priority — nuclear is the answer."
-      },
-      {
-        "what": "Oil crashes 10%+ on Strait of Hormuz reopening. WTI to ~$82, Brent to ~$88. But U.S. naval blockade of Iranian ports remains in effect.",
-        "why": "Oil price directly impacts inflation trajectory and S-REIT yields. Quick de-escalation is bullish for equities, bearish for energy shorts.",
-        "tickers": ["Oil"],
-        "urgency": "high",
-        "implication": "Oil crash removes near-term inflation acceleration risk BUT the structural inflation story (wage growth, deglobalization, AI capex) remains. Don't overreact to oil moves."
+        "implication": "Uranium position benefits from long-term AI energy demand thesis. Short-term range-bound but structural uptrend intact."
       }
     ]
   },
   "narratives": [
     {
-      "title": "AI Capex Supercycle Intact Despite Profit-Taking",
-      "description": "TSMC and ASML confirm AI spending boom with raised guidance, but 'sell the news' hits stocks. Big Tech (MSFT, META, AMZN, GOOG) expected to spend $600B+ on data centers in 2026. The bottleneck is supply, not demand — capacity constraints across TSMC, ASML, and advanced packaging. Earnings from LRCX, INTC, and GE Vernova this week will further test the thesis.",
+      "title": "Hormuz Whiplash: Ceasefire Chaos",
+      "description": "Iran opened Hormuz Friday (SPX record highs), then re-closed it over the weekend (oil +7%). Ceasefire talks with Pakistan as mediator. Market pricing gradual de-escalation but headline risk remains extreme.",
       "source": "Reuters, CNBC",
-      "tickers": ["TSM", "ASML", "NVDA", "LRCX", "AMAT", "KLAC", "MU"],
-      "stage": "mid-cycle",
-      "priceImpact": "positive-over-medium-term"
+      "tickers": [
+        "XLE",
+        "XOM",
+        "CVX",
+        "USO",
+        "TLT"
+      ],
+      "stage": "middle",
+      "priceImpact": "high — oil ±5-10% per headline; equity sector rotation"
     },
     {
-      "title": "Geopolitical De-escalation: Strait of Hormuz Opens",
-      "description": "Iran reopens Strait of Hormuz during ceasefire, oil crashes 10%+. Trump says 'most points already negotiated' for a lasting deal. Markets rally hard but risks remain — U.S. naval blockade still active, ceasefire fragile, no public deal details. If deal holds through month-end, it removes the biggest macro risk of 2026.",
-      "source": "Euronews, NYT, CNBC",
-      "tickers": ["Oil", "REITs", "SGX Banks"],
-      "stage": "early-de-escalation",
-      "priceImpact": "positive-if-deal-holds"
+      "title": "AI Capex Cycle Confirmed but Semis Sell the News",
+      "description": "ASML and TSMC both beat and raised guidance, confirming AI spending boom intact. But both stocks dipped post-earnings — valuation exhaustion. LRCX tomorrow is the next test.",
+      "source": "CNBC, Reuters, ASML IR",
+      "tickers": [
+        "ASML",
+        "TSM",
+        "NVDA",
+        "LRCX",
+        "AMAT",
+        "KLAC",
+        "MU"
+      ],
+      "stage": "middle-late",
+      "priceImpact": "medium — sector rotation within tech, not a trend reversal"
     },
     {
-      "title": "Structural Inflation Regardless of Oil",
-      "description": "Cleveland Fed inflation nowcasts climbing even before oil shock. Fed minutes show 'some' officials favoring rate hikes. Kitco analysis: 'permanent inflation reshaping markets.' The key insight — even with oil normalizing, wage growth, deglobalization, AI capex-driven demand, and copper/uranium scarcity keep inflation elevated. Rate cuts delayed, possibly to 2027.",
-      "source": "Yahoo Finance, Fed Minutes, Kitco",
-      "tickers": ["Gold", "Silver", "Copper", "Uranium", "REITs"],
-      "stage": "structural",
-      "priceImpact": "positive-for-commodities-negative-for-rate-sensitive"
+      "title": "Fed Regime Change: Warsh Replacing Powell",
+      "description": "Kevin Warsh faces Senate Banking Committee today. Key risk: hawkish pivot could derail rate-cut expectations. Markets currently pricing only 1 cut in 2026 vs. 2 priced earlier.",
+      "source": "WSJ, C-SPAN, Senate Banking Committee",
+      "tickers": [
+        "TLT",
+        "SPY",
+        "QQQ",
+        "DXY"
+      ],
+      "stage": "early",
+      "priceImpact": "medium-to-high — rate path expectations could shift materially"
     },
     {
-      "title": "Copper: The Hidden AI Infrastructure Play",
-      "description": "Copper at $6.10/lb, +32.6% YoY. AI data centers driving 110K tons additional demand. S&P Global forecasts 50% demand increase by 2040. Supply deficit structural — not enough new mines coming online. This is the scarcity thesis in its purest form: own what AI depends on.",
-      "source": "Ventura, S&P Global, Business Insider",
-      "tickers": ["Copper", "GRID"],
-      "stage": "early-main",
-      "priceImpact": "strong-positive"
+      "title": "Commodity Super Cycle Accelerating",
+      "description": "Gold at $4,833, copper at $6.03, uranium at $86.65 — all structurally rising on AI energy demand, de-dollarization, and supply deficits. WGC warns equity rally is on fragile foundations.",
+      "source": "WGC, Trading Economics, CME",
+      "tickers": [
+        "GLD",
+        "SLV",
+        "COPX",
+        "URA",
+        "GDX"
+      ],
+      "stage": "middle",
+      "priceImpact": "sustained — gradual repricing higher, not a spike"
     }
   ],
   "secondOrderEffects": [
     {
-      "text": "Oil crash reduces near-term inflation pressure, but the Fed may not cut rates anyway — 'higher for longer' narrative gets second wind from structural inflation data. S-REITs face continued yield competition.",
-      "implication": "S-REIT dividend yield advantage narrows if rates stay high. Focus on REITs with growth (CLAR's acquisitions) rather than pure yield plays."
+      "text": "Oil at $95+ flows through to Singapore electricity tariffs and transport costs, pressuring REIT tenant margins and consumer spending — but boosts Sembcorp's conventional energy revenue.",
+      "implication": "Net neutral for your SG portfolio — Sembcorp benefits, REITs face minor headwind."
     },
     {
-      "text": "Strait of Hormuz reopening weakens the oil/nuclear energy narrative short-term, but the nuclear thesis was always structural (AI data center power needs), not just geopolitical.",
-      "implication": "Don't sell uranium on oil price crash. The long-term demand driver is data center electricity, not Middle East geopolitics."
+      "text": "Hormuz disruptions could accelerate China's strategic stockpiling of commodities, driving further gold/copper/uranium demand — reinforcing your scarcity thesis.",
+      "implication": "Positive for metals and uranium positions. Geopolitical de-risking = commodity upside."
     },
     {
-      "text": "TSMC's shift away from mature/lagging-edge to leading-edge is a margin expansion story — they're choosing which customers to serve, pricing power is immense.",
-      "implication": "TSMC is becoming the toll collector of the AI economy. This margin expansion story is underappreciated in current stock reaction."
-    },
-    {
-      "text": "Advanced packaging (CoWoS) is the new bottleneck — TSMC ramping 2 new facilities in Taiwan + 2 in Arizona. Intel positioning as alternative packaging supplier (Amazon, SpaceX, Tesla as clients).",
-      "implication": "Equipment suppliers (LRCX, KLAC, AMAT) benefit from both front-end AND packaging capacity expansion. Intel's packaging entry is a potential competitive shift to watch."
+      "text": "If Warsh signals hawkish tilt, SGD may strengthen further vs USD on safe-haven flows — dampening USD-denominated returns when converted back to SGD.",
+      "implication": "Monitor SGD/USD — currently 1.269. A move to 1.25 would reduce USD portfolio returns by ~1.5% in SGD terms."
     }
   ],
   "actionableIdeas": {
     "investment": [
       {
-        "thesis": "Add copper exposure on any pullback — copper is the bottleneck commodity for AI infrastructure that nobody is talking about enough",
-        "trigger": "Copper pullback below $5.80/lb",
-        "whyNow": "AI data center demand is structural and accelerating, supply deficit worsening, +32.6% YoY with no sign of slowing",
+        "thesis": "Add to copper/scarcity metals on Hormuz-driven dip",
+        "trigger": "Copper pulling back below $6.00/lb on any de-escalation headline",
+        "whyNow": "Structural AI energy demand + supply deficit + de-dollarization = multi-year tailwind. Temporary dip from geopolitical relief is a buying opportunity.",
         "horizon": "12-24 months",
-        "invalidator": "Global recession destroying AI capex cycle"
+        "invalidator": "Global recession cutting industrial demand sharply"
       },
       {
-        "thesis": "Accumulate ASML on weakness — EUV monopoly with demand far outstripping supply for the foreseeable future",
-        "trigger": "ASML drops below recent support on 'disappointing' EUV unit guidance",
-        "whyNow": "Stock sold off 6.5% on numbers that were actually strong — classic expectations reset creates entry point",
-        "horizon": "18-36 months",
-        "invalidator": "Lithography technology disruption or China export ban expansion"
+        "thesis": "Accumulate SG REITs on rate stabilization",
+        "trigger": "10Y yield staying below 4.3% and Fed cutting at least once in 2026",
+        "whyNow": "REITs at inflection point — Ascendas 170% oversubscription shows institutional demand returning. Rate stabilization is the key catalyst.",
+        "horizon": "6-18 months",
+        "invalidator": "Rates rising above 4.5% or Singapore property cooling measures"
       }
     ],
     "trading": [
       {
-        "thesis": "Long LRCX into Q3 earnings (Wed 4/22) — expected beat with 21% revenue growth and 30% EPS growth",
-        "trigger": "Position before market close Tuesday",
-        "whyNow": "Bank of America top pick, strong semiconductor equipment cycle, TSMC/ASML guidance confirms capex boom",
+        "thesis": "LRCX earnings straddle — volatility play ahead of April 22 report",
+        "trigger": "LRCX options pricing ~5% move; buy straddle if implied vol is reasonable",
+        "whyNow": "Semicap cycle validation. ASML/TSMC sold off despite beats — LRCX could swing either way. Straddle captures move regardless of direction.",
         "horizon": "1-2 weeks",
-        "invalidator": "LRCX guides lower on customer pushback"
+        "invalidator": "Implied volatility too expensive (check IV vs historical)"
       },
       {
-        "thesis": "Short oil / trim energy exposure — Hormuz opening removes the geopolitical premium, WTI could test $75",
-        "trigger": "Any bounce in oil toward $90",
-        "whyNow": "Strait of Hormuz open, ceasefire in effect, Trump says deal 'very quickly' — geopolitical premium evaporating",
-        "horizon": "2-4 weeks",
-        "invalidator": "Ceasefire collapses or Iran reverses Hormuz access"
+        "thesis": "Short oil rally on any Hormuz reopening headline",
+        "trigger": "Brent above $95 with news of Iran re-opening Hormuz or peace talks progress",
+        "whyNow": "Oil spike is headline-driven, not fundamental. $95+ Brent overstates sustained supply disruption risk. Mean reversion likely on de-escalation.",
+        "horizon": "1-5 days",
+        "invalidator": "Full-scale Hormuz blockade confirmed with military escalation"
       }
     ],
     "watchlist": [
       {
-        "thesis": "Tesla (TSLA) earnings Wed 4/22 — 32% YoY earnings growth expected, AI/robotaxi narrative building",
-        "trigger": "Post-earnings reaction — watch for robotaxi timeline updates",
-        "whyNow": "After weeks of selling, TSLA bouncing into earnings. Not a portfolio holding but sentiment driver for risk assets",
-        "horizon": "Earnings event",
-        "invalidator": "Macro selloff post-Hormuz euphoria"
+        "thesis": "Warsh confirmation hearing — Fed rate path implications",
+        "trigger": "Watch for hawkish vs dovish language at 10am ET hearing",
+        "whyNow": "If Warsh signals fewer/no rate cuts, growth stocks and REITs could pull back — creating better entry points.",
+        "horizon": "Immediate",
+        "invalidator": "Warsh confirms independence and data-dependent approach (neutral/bullish)"
       },
       {
-        "thesis": "Intel (INTC) earnings Thu 4/23 — advanced packaging opportunity, Cerebras IPO competition",
-        "trigger": "Packaging revenue disclosure and foundry customer updates",
-        "whyNow": "Intel's packaging division is the only credible alternative to TSMC CoWoS. If they show traction, it changes the competitive landscape for AMAT/LRCX equipment demand",
-        "horizon": "Earnings event + 3 months",
-        "invalidator": "Continued foundry losses and customer attrition"
+        "thesis": "Tesla earnings Wednesday — Magnificent Seven sentiment barometer",
+        "trigger": "TSLA reports after market Wednesday — first Mag 7 report of the season",
+        "whyNow": "Tesla results set tone for tech earnings. Weak demand/guidance could pressure NVDA, AVGO, MSFT ahead of their reports.",
+        "horizon": "1-2 weeks",
+        "invalidator": "Tesla beats on margins and delivery guidance — bullish for tech sentiment"
       }
     ]
   },
   "riskWatch": [
     {
-      "name": "Ceasefire Fragility",
+      "name": "Hormuz Escalation",
       "level": "high",
-      "description": "Iran-Israel ceasefire is temporary and fragile. U.S. naval blockade still active. If ceasefire collapses, Strait of Hormuz could close again, oil spikes back above $100, markets crash. The 12-day oversold-to-overbought rally is built on hope, not a signed deal.",
-      "mitigation": "Maintain gold and commodity hedge. Don't over-rotate from defensives to risk. Keep cash buffer at 26%."
+      "description": "Strait of Hormuz re-closed; Iran considering peace talks but timeline uncertain. Oil could spike to $110+ if blockade extends. S&P 500 could pull back 3-5% on sustained closure.",
+      "mitigation": "Gold position as hedge. Energy exposure via Sembcorp. Barbell structure provides downside protection."
     },
     {
-      "name": "Fed 'Higher for Longer' Trap",
-      "level": "high",
-      "description": "Structural inflation (even without oil shock) is keeping the Fed from cutting. Minutes show some officials want rate HIKES, not cuts. If inflation stays above 3%, rate cuts may not come until 2027. This pressures S-REITs, growth valuations, and SGD-denominated assets.",
-      "mitigation": "Favor assets with pricing power (TSMC, semis) and inflation beneficiaries (copper, uranium, gold). Underweight pure rate-sensitive plays."
-    },
-    {
-      "name": "Semiconductor Expectations Reset",
+      "name": "Fed Hawkish Pivot",
       "level": "medium",
-      "description": "TSMC and ASML sold off on strong results. The bar is now so high that merely beating estimates isn't enough. If LRCX, TXN, or INTC disappoint, it could trigger a sector-wide rotation out of semis.",
-      "mitigation": "Don't chase semiconductor rallies into earnings. Use sell-offs as accumulation opportunities. Focus on the capacity constraint thesis, not quarterly beats."
+      "description": "Warsh confirmation hearing today. If he signals fewer rate cuts or hawkish inflation stance, growth valuations could compress. 10Y yield could push back above 4.5%.",
+      "mitigation": "SG dividend portfolio provides income regardless of rate direction. Cash position (26%) provides dry powder for dips."
     },
     {
-      "name": "Rapid Overbought Condition",
+      "name": "Semicap Cycle Peak",
       "level": "medium",
-      "description": "Piper Sandler warns market went from oversold to overbought in 12 days with 'lagging intermediate breadth.' This creates a 'highly fragile technical foundation' at all-time highs.",
-      "mitigation": "Don't FOMO into new positions at ATH. Wait for pullbacks. The cash buffer exists for this reason."
+      "description": "BNP Paribas warns semicap equipment stocks may peak in late 2026/early 2027 based on historical cycle patterns. ASML and TSMC sold off despite strong earnings.",
+      "mitigation": "Trim into strength on LRCX, AMAT, KLAC if they beat earnings. Don't add to semicap positions at current levels — wait for pullbacks."
+    },
+    {
+      "name": "SGD Strength Eroding USD Returns",
+      "level": "low",
+      "description": "SGD strengthening to 1.269 vs USD on safe-haven flows. If trend continues, USD-denominated portfolio returns diluted when measured in SGD.",
+      "mitigation": "Natural hedge via SGD-denominated holdings (banks, REITs, CPF). Monitor but don't over-hedge."
     }
   ],
   "keyEvents": [
     {
-      "text": "Strait of Hormuz reopened by Iran during ceasefire — oil crashes 10%+, stocks rally to ATH",
-      "icon": "🛢️",
-      "source": "Euronews, NYT"
-    },
-    {
-      "text": "TSMC Q1: +58% YoY profit, HPC/AI 61% of revenue, margin 66% — stock sells off 3%",
-      "icon": "🔧",
-      "source": "CNBC, Reuters"
-    },
-    {
-      "text": "ASML raises 2026 revenue forecast, stock drops 6.5% on EUV unit disappointment",
-      "icon": "📐",
-      "source": "Reuters, CNBC"
-    },
-    {
-      "text": "S&P 500 hits 7,100 ATH, Nasdaq longest win streak since 1992",
-      "icon": "📈",
-      "source": "CNBC, Zacks"
-    },
-    {
-      "text": "CLAR preferential offering 170% oversubscribed — strong institutional demand for S-REITs",
-      "icon": "🏗️",
-      "source": "Yahoo Finance SG"
-    },
-    {
-      "text": "Fed inflation nowcasts climbing — rate cuts delayed, 'some' officials want hikes",
+      "text": "Warsh Fed Chair confirmation hearing — 10am ET today",
       "icon": "🏛️",
-      "source": "Yahoo Finance, Fed Minutes"
+      "source": "Senate Banking Committee, WSJ"
     },
     {
-      "text": "Earnings week ahead: TSLA (Wed), INTC (Thu), LRCX (Wed), BA (Wed), UNH (Tue)",
+      "text": "US March Retail Sales data — 8:30am ET today (consensus +1.3% MoM)",
       "icon": "📊",
-      "source": "CNBC, Seeking Alpha"
+      "source": "Census Bureau"
     },
     {
-      "text": "Gold $4,831/oz, Copper $6.10/lb near records — structural inflation trade intact",
-      "icon": "🥇",
-      "source": "Kitco, Trading Economics"
+      "text": "LRCX Q3 FY26 earnings — April 22 after close (EPS est. $1.35, rev $5.70B)",
+      "icon": "💰",
+      "source": "MarketBeat, Yahoo Finance"
+    },
+    {
+      "text": "Tesla Q1 earnings — April 23 after close (first Mag 7 report)",
+      "icon": "🚗",
+      "source": "CNBC"
+    },
+    {
+      "text": "Iran peace talks consideration — Pakistan mediation, timing unclear",
+      "icon": "🕊️",
+      "source": "Reuters"
+    },
+    {
+      "text": "ADP Weekly Employment — 8:15am ET today",
+      "icon": "👔",
+      "source": "ADP"
     }
   ],
   "bottomLine": {
-    "whatMatters": "The AI capex supercycle is CONFIRMED by TSMC and ASML — demand outstrips supply, not the other way around. The Strait of Hormuz opening is a near-term relief rally catalyst but the structural stories (inflation, copper scarcity, nuclear energy) transcend geopolitics. Markets are at ATH on hope of peace, not a signed deal.",
-    "whatToDo": "Hold all core positions firmly — the scarcity thesis is working. Use any semiconductor sell-offs as accumulation opportunities (especially ASML, TSM). Watch LRCX earnings Wednesday for equipment cycle validation. Consider adding copper exposure on pullbacks. Keep the 26% cash buffer — it's there for a reason and the market is overbought.",
-    "whatToIgnore": "Short-term oil price volatility (the structural inflation story doesn't depend on oil). TSMC/ASML post-earnings sell-offs (expectations resets, not fundamental deteriorations). Daily market noise around Iran ceasefire headlines (wait for a signed deal, not tweets)."
+    "whatMatters": "Hormuz whiplash is the dominant risk — oil spikes and equity wobbles will persist until there's a durable ceasefire. Warsh hearing today could reshape rate expectations. Semicap earnings (LRCX tomorrow) validate or challenge the AI capex cycle thesis.",
+    "whatToDo": "Hold positions. Don't chase oil spike or panic-sell on Hormuz headlines. Watch Warsh hearing for rate signals. If LRCX beats, resist adding — wait for post-earnings dip. If copper dips below $6.00 on de-escalation, consider adding to metals position.",
+    "whatToIgnore": "Day-to-day Hormuz headlines (noise until there's a structural resolution). ASML/TSMC post-earnings dips (sector rotation, not cycle reversal). OCBC downgrade by JP Morgan (contrarian signal, not actionable)."
   },
-  "date": "2026-04-19",
-  "lastUpdated": "2026-04-19T23:30:00+08:00"
+  "date": "2026-04-21",
+  "lastUpdated": "2026-04-20T23:35:14.379357+00:00"
 }
