@@ -1,428 +1,344 @@
 {
   "executiveSummary": [
     {
-      "text": "Fed holds at 3.5%-3.75% for 3rd consecutive meeting; dissent signals no rush to cut. Powell stays on as governor. Hawkish hold维持短期实际利率高位.",
-      "sentiment": "bearish",
+      "text": "S&P 500 hit 7,264 (+0.77%) and Nasdaq notched fresh records on May 1, driven by Apple earnings beat (+3.24%) and continued AI infrastructure optimism. Risk-on sentiment intact.",
+      "sentiment": "bullish",
+      "tag": "equities"
+    },
+    {
+      "text": "Oil prices pulled back sharply \u2014 Brent $108.17 (-2%), WTI $101.94 (-3%) \u2014 as Iran sent a peace proposal to Pakistani mediators. War premium partially unwinding but geopolitical risk remains elevated.",
+      "sentiment": "cautious",
+      "tag": "commodities"
+    },
+    {
+      "text": "Fed held at 3.5\u20133.75% (split vote). Kevin Warsh advances to full Senate vote, takes over May 15. Hawkish lean expected; rate cut timeline pushed to late 2026\u20132027.",
+      "sentiment": "neutral",
       "tag": "rates"
     },
     {
-      "text": "Japan intervenes in FX; yen surges 2-3% to 155.5 — biggest single-day gain in 3 years. USD/JPY broken below 160 trigger level.",
-      "sentiment": "bullish",
-      "tag": "FX"
-    },
-    {
-      "text": "Brent crude holds ~$114-115/barrel; Iran war supply disruption with 20% Hormuz closure. War premium structural, not transitory.",
-      "sentiment": "bullish",
-      "tag": "oil"
-    },
-    {
-      "text": "Gold，压在$4,550以下1个月低位 — real rate hawkishness overrides geopolitical bid. 实际利率框架.",
-      "sentiment": "bearish",
-      "tag": "gold"
-    },
-    {
-      "text": "AI semis vs software rotation continues; NVDA $5T cap, AVGO AI revenue +106% YoY, PHLX semi at record 41.9% of IT sector cap.",
+      "text": "Semiconductor stocks insatiable \u2014 Intel briefly topped $100 (best day since 1987), Micron +4.18% May 1 on AI memory supercycle narrative. Sector momentum remains powerful but concentrated.",
       "sentiment": "bullish",
       "tag": "semis"
+    },
+    {
+      "text": "Gold at ~$4,580\u20134,638/oz. Real rates rising from rate-hold + inflation shock = gold in tug-of-war between geopolitical bid and rising opportunity cost. 2nd-order: if Warsh signals hawkishness, gold faces pressure.",
+      "sentiment": "neutral",
+      "tag": "metals"
     }
   ],
   "regime": {
-    "label": "Stagflationary Crossroads",
+    "label": "Risk-On / AI Infrastructure Supercycle",
     "metrics": [
       {
+        "label": "S&P 500",
+        "value": "7,264",
+        "change": "+0.77% May 1"
+      },
+      {
         "label": "Brent Crude",
-        "value": "$114-115/bbl",
-        "change": "+~$53 YoY, +15% this week"
+        "value": "$108.17/bbl",
+        "change": "-2% on Iran peace signal"
       },
       {
-        "label": "Gold",
-        "value": "<$4,550/oz",
-        "change": "1-month low; -$100 from recent highs"
+        "label": "WTI Crude",
+        "value": "$101.94/bbl",
+        "change": "-3% intraday"
       },
       {
-        "label": "Uranium",
-        "value": "$87/lbs",
-        "change": "+27.9% YoY; flat w/w"
+        "label": "Gold (spot)",
+        "value": "$4,580\u20134,638/oz",
+        "change": "+0.37% May 1"
       },
       {
-        "label": "USD/JPY",
-        "value": "~155.5",
-        "change": "-3% in one day; BOJ intervention"
+        "label": "USD/SGD",
+        "value": "1.2711",
+        "change": "-0.15% May 1"
       },
       {
-        "label": "US Fed Funds",
-        "value": "3.5-3.75%",
-        "change": "3rd consecutive hold; hawkish dissent"
+        "label": "Fed Funds Rate",
+        "value": "3.5\u20133.75%",
+        "change": "Held (split vote)"
       },
       {
-        "label": "STI (YTD)",
-        "value": "+7.15%",
-        "change": "+29% 12M through Apr 8"
+        "label": "Intel",
+        "value": ">$100",
+        "change": "Best day since 1987"
+      },
+      {
+        "label": "Micron",
+        "value": "+4.18% May 1",
+        "change": "+61% past month"
       }
     ]
   },
   "portfolioNews": {
     "usGlobal": [
       {
-        "what": "NVDA crossed $5T market cap (~$208/share) on Apr 24; Intel earnings sparked broader AI semi rally. AVGO AI revenue $8.4B (+106% YoY). PHLX semi index at record 41.9% of IT sector cap.",
-        "why": "AI infrastructure capex cycle is real and accelerating. MAG7 calling out rising data center component costs. NVDA/AVGO/AMAT/LRCX/KLAC all in KL's core thesis.",
-        "tickers": [
-          "NVDA",
-          "AVGO",
-          "AMAT",
-          "LRCX",
-          "KLAC",
-          "QCOM"
-        ],
+        "what": "Apple Q2 earnings beat: $2.01 EPS (est. $1.88), strong iPhone + China recovery. AAPL +3.24% May 1.",
+        "why": "Services and iPhone cycle better than feared; China softness offset by India + services. Bull case for MSFT, AMZN, GOOG also strengthened.",
+        "tickers": "AAPL, MSFT, AMZN, GOOG",
+        "urgency": "medium",
+        "implication": "Mega-cap tech momentum continues. KL mega-cap positions (MSFT, AMZN, GOOG) supported. AAPL alone not held but directionally positive."
+      },
+      {
+        "what": "Intel broke $100/share May 1; +122% YTD on AI CPU demand narrative. 23 brokerages raised price targets.",
+        "why": "Unexpected Q1 revenue recovery + AI inference demand for Xeon CPUs. Not KL-owned but reinforces AI infrastructure narrative.",
+        "tickers": "INTC (not held)",
+        "urgency": "low",
+        "implication": "AI infrastructure narrative spreading beyond GPUs to CPU/inference. KL semis names (NVDA, AVGO, TSM, ASML, AMAT, LRCX, KLAC, MU) remain primary exposure."
+      },
+      {
+        "what": "Micron MU +4.18% May 1; +61% past month. DA Davidson initiated Buy with $1,000 price target.",
+        "why": "AI memory supercycle: HBM demand outstripping supply through 2026. KLAC also upgraded to Buy (price target $1,500).",
+        "tickers": "MU (KL-owned), KLAC (KL-owned)",
         "urgency": "high",
-        "implication": "AI Infra bucket (16% of portfolio) supported. Semi equipment names (AMAT, LRCX, KLAC, MU) benefit from AI-driven capex supercycle. Maintain or add on dips."
+        "implication": "Memory names (MU, KLAC) are key AI infra picks. MU running hard; KLAC more upside. MU already up huge \u2014 sizing check warranted."
       },
       {
-        "what": "Nasdaq -1.1%, S&P -0.4% on Apr 28 — chip stocks sink on OpenAI report. AI software names underperform semis.",
-        "why": "AI spending concentrated in hardware/infrastructure vs pure software plays. Broad divergence between picks-and-shovels and application layer.",
-        "tickers": [
-          "QQQ",
-          "MSFT",
-          "AMZN",
-          "GOOG"
-        ],
-        "urgency": "medium",
-        "implication": "Software drag on QQQ. MSFT/AMZN/GOOG are AI infra builders, not pure software. Keep holding — they are also AI infra beneficiaries."
-      },
-      {
-        "what": "Fed holds: Powell's likely final meeting as chair; dissent wanted explicit 'no cut'. Real rates stay elevated.",
-        "why": "Oil-driven inflation uncertainty + solid labor market = no urgency to cut. 3 dissenters signal hawkish tilt. Rate-sensitive assets (REITs, gold) face headwinds short-term.",
-        "tickers": [
-          "VWRA",
-          "AGG",
-          "TLT"
-        ],
-        "urgency": "medium",
-        "implication": "Elevated real rates = dollar support. 682k cash (26%) is well-positioned. Fixed income drag continues but 3-5% risk-free reduces urgency to chase equities."
+        "what": "Broadcom AI revenue +106% YoY in Fiscal Q1 2026. Targets $100B in AI chips by 2027.",
+        "why": "Custom ASIC demand from hyperscalers (Google TPU, Meta, Amazon) insulates AVGO from NVDA competition.",
+        "tickers": "AVGO (KL-owned)",
+        "urgency": "high",
+        "implication": "AVGO thesis intact: custom AI chips = recurring revenue, less cyclical than merchant silicon. Core KL holding."
       }
     ],
     "singapore": [
       {
-        "what": "STI +7.15% YTD through Apr 8; +29% over 12 months. Singapore REITs rebounded in April as govt bond yields eased.",
-        "why": "SGD equities relatively defensive amid global uncertainty. REIT recovery from Q1 underperformance. Banking sector (DBS, OCBC, UOB) supported by steady NIM.",
-        "tickers": [
-          "DBS",
-          "OCBC",
-          "UOB",
-          "CICT",
-          "Ascendas",
-          "MLT",
-          "FCT"
-        ],
+        "what": "STI closed April at ~4,908 (up 0.96% late April). STI delivered +29% over 12 months to April 9.",
+        "why": "Wall Street spillover + stable domestic macro. Analysts target 5,000 for 2026.",
+        "tickers": "STI ETF, DBS, OCBC, UOB (KL-owned)",
         "urgency": "medium",
-        "implication": "Singapore dividend bucket (442k, 17%) stable. Banks: hold. REITs: accumulate selectively — yield spreads vs SGS bonds improving. Avoid overexposure to interest rate sensitivity."
+        "implication": "Singapore banks supported by stable NIM outlook and dividend yields. DBS/OCBC/UOB remain core SG dividend exposure."
       },
       {
-        "what": "Asia faces Iran war oil shock; India macro deteriorating (rupee -10% vs USD, inflation + growth risks). Asia manager attention on data centers, offices, hotels.",
-        "why": "Iran war disruptions hitting EM Asia hardest via oil import costs. But Singapore relatively insulated vs India. Data center theme playing in Asia.",
-        "tickers": [
-          "EWY",
-          "GRID"
-        ],
+        "what": "Singapore REITs 1Q 2026 results mixed. CLAR raised guidance to low-double-digit DPU growth. CICT and FCT stable.",
+        "why": "Higher-for-longer rates compress REIT valuations but rental reversion positive for industrial/logistics REITs.",
+        "tickers": "CLAR, CICT, FCT, MLT (KL-owned)",
+        "urgency": "medium",
+        "implication": "REITs under pressure from rate environment but CLAR's industrial exposure is best positioned. MLT (data center/logistics) aligned with AI infra theme."
+      },
+      {
+        "what": "USD/SGD at 1.2711 (-0.15% May 1). SGD strengthened 1.18% past month.",
+        "why": "SGD strengthens on risk-on + better Asia growth outlook. Reduces SGD-equivalent returns on USD assets.",
+        "tickers": "VWRA, QQQ (USD-denominated)",
         "urgency": "low",
-        "implication": "EWY (Korea) under pressure from oil/China risk. GRID (Global X MSCI Thailand ETF) — not in portfolio but copper/nuclear theme has Thailand exposure. Monitor, no action."
-      },
-      {
-        "what": "Singapore REITs acquiring New Economy assets: data centers (Osaka), logistics (Loyang), science park offices. Sector transformation ongoing.",
-        "why": "REITs pivoting from traditional commercial to digital infrastructure. S-REITs have highest payout ratios in Asia. Yield ~5-6% still attractive vs cash.",
-        "tickers": [
-          "CICT",
-          "Ascendas",
-          "MLT",
-          "FCT"
-        ],
-        "urgency": "medium",
-        "implication": "Long-term structural hold. Don't chase yield — quality digital infra REITs will outperform traditional ones in 2026."
+        "implication": "Forex headwind on USD holdings. SGD 682K cash position partly hedges. VWRA/QQQ returns in SGD terms slightly reduced."
       }
     ],
     "commodities": [
       {
-        "what": "Brent crude: $114-115/bbl (Fortune: $114.66). Had spiked to $126 wartime high. Iran war shut 20% of global oil supply via Hormuz. Structural war premium.",
-        "why": "Iran war is not a 2-week event. Physical crude at record premium to futures. UAE quit OPEC — adds complexity to supply coordination. Economists see oil averaging $86 in 2026 even if war resolves.",
-        "tickers": [
-          "oil",
-          "XLE",
-          "OIH"
-        ],
+        "what": "Oil pullback: Brent $108.17 (-2%), WTI $101.94 (-3%) \u2014 from $126 intraday high Thursday. Iran peace proposal to Pakistan mediators.",
+        "why": "Peace proposal is credible signal but far from confirmed. Strait of Hormuz still contested. War premium partially unwinding.",
+        "tickers": "XOM (mentioned by CEO expecting higher prices)",
         "urgency": "high",
-        "implication": "Energy is 2nd-order beneficiary of own price rise. Higher oil → inflation → Fed stays hawkish → real rates up → gold gets crushed (not 'gold up in crisis'). Metals bucket (7%) under real rate pressure short-term. Oil stays above $100 — energy cos FCF benefits semiconductor customers (energy cost)."
+        "implication": "Oil slide reduces inflation impulse (good for rates) but geopolitical tail risk remains. KL has no direct oil exposure but energy cost is 2nd-order input to everything."
       },
       {
-        "what": "Gold: below $4,550/oz — 1-month low. Hawkish Fed + elevated real rates = gold's near-term nemesis. But $4,470 support key.",
-        "why": "Gold is a REAL RATE hedge, NOT a geopolitical crisis hedge. With Fed signaling no cuts and real rates rising, gold loses opportunity cost advantage. Oil-driven inflation is inflationary supply shock — Fed can't ease, real rates rise, gold declines.",
-        "tickers": [
-          "GLD",
-          "IAU",
-          "gold"
-        ],
-        "urgency": "high",
-        "implication": "175k metals bucket faces mark-to-market pressure. HOLD — 3rd order: if oil stays high AND Fed stays hawkish, eventually economic slowdown forces rate cut AND gold recovers. Timing uncertain. Accumulate on further dips toward $4,400-4,470 support."
-      },
-      {
-        "what": "Uranium: $87/lbs (Apr 29), +27.9% YoY. Flat week-over-week. Nuclear renaissance + data center power demand = structural bid. Sprott holding URNM ETF.",
-        "why": "LNG supply disruption from Iran war makes nuclear baseload power more attractive. Data centers need 24/7 power — nuclear fits. Sprott Physical Uranium Trust accumulating. Kazatomprom supply constrained.",
-        "tickers": [
-          "URNM",
-          "Uranium",
-          "Cameco",
-          "Kazatomprom"
-        ],
+        "what": "Gold at $4,580\u20134,638/oz (+0.37% May 1). 2nd straight session gain.",
+        "why": "Geopolitical uncertainty bid + central bank buying (Q1 2026: +6% return). But real rates rising from Fed hold + war-inflation complicate the picture.",
+        "tickers": "Gold ETFs, GLDM (KL-owned via metals allocation)",
         "urgency": "medium",
-        "implication": "Uranium position (part of metals bucket) is well-placed for structural demand. 2nd order: LNG disruption → more nuclear signings → uranium demand 2027-2030. Not a short-term trade."
+        "implication": "Gold real-rate hedge thesis: REAL RATES matter more than crisis. If Warsh is hawkish and keeps rates high, gold's opportunity cost rises \u2014 3rd-order risk is real."
       },
       {
-        "what": "Copper: soft near-term but structural energy transition demand. India $40-50B extra oil import cost (~1% GDP).",
-        "why": "India is proxy for EM oil import pain. Higher oil = less $$ for copper/industrial imports. Short-term headwind for copper. Long-term: energy transition electrification = copper structural demand.",
-        "tickers": [
-          "COPX",
-          "copper"
-        ],
-        "urgency": "low",
-        "implication": "Copper not explicitly in portfolio but implied via REITs ( Ascendas) and Singtel/utility exposure. No action. Watch $8,000-8,500/tonne level."
+        "what": "Copper at ~$12,951/tonne (early 2026 data). Structural AI infrastructure demand (data centers, EVs, grid) vs supply constraints.",
+        "why": "Data center power infrastructure = massive copper demand. Mine supply constrained. KL's copper exposure through metals allocation.",
+        "tickers": "Copper futures, JJMTF (KL-owned)",
+        "urgency": "medium",
+        "implication": "Copper is a real play on AI energy infrastructure buildout. Long-term structural thesis intact. Uranium similarly positioned for nuclear data center power."
       }
     ]
   },
   "narratives": [
     {
-      "title": "AI Infrastructure Capex Supercycle — Real and Accelerating",
-      "description": "NVDA $5T cap, AVGO AI +106% YoY, MAG7 calling out data center component costs. Semis at 41.9% of IT sector — highest in history. TSMC guiding stronger 2026 sales. This is not hype — it's earnings-driven.",
-      "source": "Reuters, Yahoo Finance, Motley Fool",
-      "tickers": [
-        "NVDA",
-        "AVGO",
-        "TSM",
-        "ASML",
-        "AMAT",
-        "LRCX",
-        "KLAC",
-        "MU"
-      ],
-      "stage": "mid-cycle acceleration",
-      "priceImpact": "strongly positive for semis/equipment"
+      "title": "AI Infrastructure Buildout \u2014 Next Phase",
+      "description": "From GPU compute (NVDA) to custom ASICs (AVGO), memory (MU, KLAC), and now CPU inference (Intel). Capital expenditures from hyperscalers hitting $300B+ run rate. Broadcom alone targeting $100B AI chip revenue by 2027.",
+      "source": "Reuters, Motley Fool, DA Davidson",
+      "tickers": "NVDA, AVGO, TSM, ASML, AMAT, LRCX, KLAC, MU",
+      "stage": "accelerating",
+      "priceImpact": "strongly positive"
     },
     {
-      "title": "Fed's Hawkish Hold — No Cuts Until 2027",
-      "description": "3 dissenters at April FOMC wanted explicit 'no cut' signal. Powell staying on as governor but chair role uncertain. Oil-driven inflation + solid jobs = no urgency. Real rates stay elevated.",
-      "source": "NYT, CNBC, Reuters Fed statement",
-      "tickers": [
-        "TLT",
-        "BND",
-        "VWRA"
-      ],
-      "stage": "early",
-      "priceImpact": "negative for gold/REITs/broad equities short-term"
+      "title": "Iran War \u2014 Oil Spike Peak or Prolonged Conflict?",
+      "description": "Oil surged to $126 (Brent) then retreated to $108 on peace proposal. Exxon's CEO still expects higher prices as market absorbs disruption. Strait of Hormuz remains key risk. Supply disruption already priced in; peace would release premium.",
+      "source": "NYT, CNBC, Reuters",
+      "tickers": "XOM, CVX, energy ETFs",
+      "stage": "peak uncertainty",
+      "priceImpact": "oil: volatile; equities: mixed"
     },
     {
-      "title": "Japan BOJ FX Intervention — Yen Reversal",
-      "description": "Yen surged 2-3% to 155.5 (biggest gain in 3 years) after Japan issued 'final warning' and intervened. 160 level was trigger. BOJ signaling it will act.",
-      "source": "Reuters, Bloomberg",
-      "tickers": [
-        "EWJ",
-        "FXY",
-        "JPY"
-      ],
-      "stage": "early",
-      "priceImpact": "yen strength; USD/JPY down; carry trade unwinding"
+      "title": "Fed Transition \u2014 Warsh Era Dawning",
+      "description": "Powell's final meeting held rates 3.5\u20133.75% with split vote. Warsh advances to full Senate vote, takes over May 15. Markets pricing near-zero chance of June cut. Warsh historically more hawkish.",
+      "source": "CNBC, Fed.gov, BBC",
+      "tickers": "TLT, GLDM, FXI",
+      "stage": "transition",
+      "priceImpact": "USD bullish, gold cautious"
     },
     {
-      "title": "Oil War Premium Structural — Not Transitory",
-      "description": "Iran war shut 20% of global oil via Hormuz. Brent at $114-115 (had hit $126). UAE quit OPEC — supply coordination breaking down. Even if war ends, $86 average 2026 vs $69 in 2025. Physical crude at record premium to futures.",
-      "source": "CBS News, Reuters, Fortune, Guardian",
-      "tickers": [
-        "XLE",
-        "OIH",
-        "CVX",
-        "XOM"
-      ],
-      "stage": "mid-cycle",
-      "priceImpact": "positive for energy, negative for EM Asia oil importers"
+      "title": "Semiconductor Divergence \u2014 Memory/Equipment vs. Pure Play GPU",
+      "description": "While NVDA trades at extreme valuations, MU, KLAC, AMAT, LRCX offer relative value in the AI supply chain. Micron +61%/month shows memory can rerate fast. KLAC target $1,500 vs ~$900 current.",
+      "source": "DA Davidson, Barron's, 24/7 Wall St",
+      "tickers": "MU, KLAC, AMAT, LRCX",
+      "stage": "mid-cycle rerating",
+      "priceImpact": "positive"
     },
     {
-      "title": "EM Asia Macro Deterioration — India Most Exposed",
-      "description": "India: rupee -10% YoY vs USD, record low. Oil shock = $40-50B extra import cost (~1% GDP). Four macro shocks converging: oil surge + weak rupee + poor monsoon + growth/inflation risk. Singapore relatively insulated.",
-      "source": "Economic Times, CNBC Asia",
-      "tickers": [
-        "EWI",
-        "INDA",
-        "EIDO"
-      ],
-      "stage": "early",
-      "priceImpact": "negative for EM ex-SG/HK"
+      "title": "Singapore REITs \u2014 Rate Sensitivity vs. AI Tailwind",
+      "description": "CLAR (industrial/logistics/data center) riding AI infrastructure wave with guidance raise. CICT (mixed retail/office) facing rate headwinds. MLT (industrial) well-positioned. Rate cuts delayed to 2027 \u2014 REIT pressure continues.",
+      "source": "The Edge Singapore, Yahoo Finance SG",
+      "tickers": "CLAR, CICT, MLT, FCT (KL-owned)",
+      "stage": "\u5206\u5316 (divergence)",
+      "priceImpact": "mixed, CLAR/MLT favored"
     }
   ],
   "secondOrderEffects": [
     {
-      "text": "Oil >$100 → consumption tax effect on real incomes → services inflation sticky → Fed can't cut → real rates rise → gold underperforms vs cash. CRUX: 'crisis = gold up' is lazy. Gold is a REAL RATE asset. When real rates rise from inflation-fighting, gold has negative carry vs cash.",
-      "implication": "175k gold position marked down near-term. Hold for 2H2026-2027 recovery when economic slowdown forces Fed pivot."
+      "text": "Oil retreat \u2192 inflation impulse moderates \u2192 Fed doesn't HAVE to be hawkish \u2192 real rates stabilize \u2192 gold's 3rd-order pressure eases slightly. But Warsh's potential hawkishness offsets this.",
+      "implication": "Gold: wait-and-see. Don't add aggressively until Warsh's policy direction clearer (May 15 onward)."
     },
     {
-      "text": "Japan FX intervention → USD/JPY to 155.5 → if sustained, carry trade unwinds → global risk assets face margin pressure. BUT: Japan normalizing rates = long-term JGB demand = 2% yields in Japan = global rate structure shifts. 3rd order: BOJ normalization + Fed hawkish = USD eventually weakens = commodities (gold, oil, copper) denominated in USD get bid.",
-      "implication": "Don't fight the yen intervention. But 155-160 is the zone. Watch for BOJ dovish pivot — that would be bullish risk assets."
+      "text": "Iran peace signal \u2192 USD strengthens (safe haven unwinds) \u2192 USD/SGD could push toward 1.28+ \u2192 SGD assets face forex headwind \u2192 VWRA/QQQ returns in SGD further compressed.",
+      "implication": "SGD 682K cash pile looks increasingly smart as USD strength may cap USD equity returns in SGD terms."
     },
     {
-      "text": "Semis at 41.9% of IT sector market cap = highest in history. Dot-com peak comparison warranted but incomplete. Dot-com was software/telecom capex; this is physical AI data center buildout. 2nd order: if AI capex disappoints (i.e., ROI questions), rotation OUT of semis would be violent given concentration. Diversified semi equipment exposure (AMAT, LRCX, KLAC, MU) is more robust than single-name NVDA.",
-      "implication": "Semi equipment is better risk/reward than pure chip designers. MU at 557% from lows — take profits or hedge."
+      "text": "Intel's AI recovery narrative \u2192 validates that inference market is REAL (not just training) \u2192 AMAT, LRCX, KLAC order books strengthened \u2192 equipment names see continued upside.",
+      "implication": "Equipment/semi names (AMAT, LRCX, KLAC) more leveraged to inference wave than currently priced in."
     },
     {
-      "text": "India macro deterioration → EM capital outflows → USD support → reinforces Fed hawkishness. 3rd order: Singapore SGD tends to appreciate vs EM currencies in risk-off, providing some inflation insulation. SGD has appreciated ~3% vs Indian rupee YTD. Positive for Singapore import purchasing power.",
-      "implication": "Singapore relatively defensive in EM Asia. STI/REITs/banks hold up better than EM peers."
+      "text": "Apple earnings beat \u2192 mega-cap tech confidence intact \u2192 MSFT, AMZN, GOOG Q2 estimates may be revised up \u2192 rotation into AI infrastructure names may accelerate.",
+      "implication": "Tech mega-caps as a 'cash cow' funding AI infrastructure bets remains a valid barbell complement."
     },
     {
-      "text": "UAE quitting OPEC = cartel discipline breaking. Structural shift in oil market. More non-OPEC supply growth = ceiling on oil prices but floor also rising due to war disruption. Range-bound $90-130 oil for 2026 likely. Energy cos FCF strong — can fund AI capex. Convergent interest: energy companies have cash, AI infrastructure needs power.",
-      "implication": "XOM/CVX energy holdings: hold. Not a portfolio overweight but energy as AI power provider connects two theses."
+      "text": "Copper at $12,951/tonne \u2192 data center/grid buildout economics strained \u2192 but structural demand from AI energy infrastructure means prices stay elevated \u2192 uranium as nuclear backup play gains credibility.",
+      "implication": "Uranium + copper + grid = KL's 'energy infrastructure for AI' thesis. Position sizing in metals allocation deserves review."
     }
   ],
   "actionableIdeas": {
     "investment": [
       {
-        "thesis": "Accumulate AMAT/LRCX/KLAC on relative weakness vs NVDA. Semi equipment (AMSL, AMAT, LRCX, KLAC) provides diversified exposure to AI capex without single-company concentration risk. These names benefit from TSMC, Samsung, Intel all expanding simultaneously.",
-        "trigger": "Any QQQ/semi sector pullback of 5-8% from current levels",
-        "whyNow": "Earnings confirmed AI infrastructure supercycle is real. Equipment orders backlog extends 12-18 months = visibility high. These names are 15-20% of AI Infra bucket.",
-        "horizon": "12-18 months",
-        "invalidator": "TSMC or Samsung cuts capex guidance; OR semis P/E de-rating below 20x on recession fears"
+        "thesis": "KLAC: KLA Corporation target $1,500 (from ~$900) \u2014 60%+ upside. Semiconductor equipment name riding AI inference wave (etch, inspection). Upgraded to Buy recently. Memory equipment also in scope.",
+        "trigger": "Q2 earnings beat or AMAT/LRCX\u540c\u884c upgrade momentum.",
+        "whyNow": "Analyst momentum building; equipment laggard vs. MU/NVDA run; KLAC in KL portfolio underowned relative to thesis.",
+        "horizon": "12 months",
+        "invalidator": "AI capex cuts from hyperscalers; Korea's Hanmi or Applied Materials gaining share."
       },
       {
-        "thesis": "Gold accumulation on dips toward $4,400-4,470 support. Real rate pressure near peak. Fed's inability to cut indefinitely (political pressure from Trump + fiscal sustainability) = eventual pivot. Oil war adds uncertainty but eventually resolves, removing inflationary supply shock component.",
-        "trigger": "Gold tests $4,470-4,500 support zone",
-        "whyNow": "Gold is historically 3rd-order hedge in portfolio. 175k metals position provides portfolio ballast. When Fed eventually pivots (2H2026 or 2027), gold runs. Risk/reward asymmetric at current levels.",
-        "horizon": "6-18 months",
-        "invalidator": "Fed accelerates hikes to 4.5%+ (unlikely given recession risk); OR US fiscal crisis triggers risk-off liquidation"
+        "thesis": "MU: Micron memory supercycle \u2014 AI HBM demand sustained through 2026. DA Davidson $1,000 target implies ~80% upside from current levels. Already up huge but earnings revisions not done.",
+        "trigger": "Any AI memory supply constraint announcement or Q2 guidance raise.",
+        "whyNow": "+61% past month but analyst estimates still rising; not yet consensus 'melt-up' scenario.",
+        "horizon": "6\u201312 months",
+        "invalidator": "Samsung/Hynix expanding HBM faster than expected; memory cycle turns."
       }
     ],
     "trading": [
       {
-        "thesis": "Short gold / long oil ratio trade. Gold below $4,550 while Brent at $114+ — real rate regime strongly favoring energy. Until Fed signals dovish pivot OR oil supply normalizes (Iran war de-escalation), gold/oil ratio keeps falling. KL's portfolio doesn't have direct oil exposure but this informs asset allocation.",
-        "trigger": "GLD falling below $4,500; oil holding above $110",
-        "whyNow": "Clear macro regime: inflationary supply shock (oil) + hawkish Fed = real rates rise = gold underperforms. Trade has 2-3 month horizon.",
-        "horizon": "2-3 months",
-        "invalidator": "Iran war de-escalation OR US recession triggers Fed emergency cut"
+        "thesis": "Oil: Short-term Iran peace signal opens risk-reward for fade. Brent $108 vs $126 high. War not confirmed over but peace proposal credible. Tight stop above $115.",
+        "trigger": "Confirmed Iran peace deal or diplomatic progress at UN.",
+        "whyNow": "Peace premium exiting quickly; $101\u2013108 range likely floor until confirmed escalation.",
+        "horizon": "2\u20134 weeks",
+        "invalidator": "Hormuz closure actually implemented; ceasefire collapses; oil surges past $115."
       },
       {
-        "thesis": "MU (Micron) — 557% from lows. HBM memory demand from AI servers is genuine. But with MU at these levels, asymmetric trade is to trim and rotate into underperforming semi equipment names. Valuation: MU still cheaper than NVDA/AVGO on P/S but risk/reward more balanced.",
-        "trigger": "MU tests $120+ resistance",
-        "whyNow": "Memory cycle upturn + AI server demand = sustained EPS upgrade. But much already priced at 557% from lows. Reduce exposure, rotate to AMAT/LRCX.",
-        "horizon": "3-6 months",
-        "invalidator": "HBM supply shortage extends; AI server demand exceeds expectations; memory ASPs rise further"
+        "thesis": "GLDM (gold ETF): Reduce slightly ahead of Warsh Fed taking over. Real rate hedge thesis complicated by hawkish lean. Don't exit \u2014 hedge against tail risk \u2014 but trim to make room for more asymmetric setups.",
+        "trigger": "Kevin Warsh signals hawkish rate stance or gold breaks below $4,500.",
+        "whyNow": "Gold up 6% Q1; near psychological $4,600; Warsh May 15 pivot risk = real rate pressure on gold.",
+        "horizon": "Short-term tactical trim",
+        "invalidator": "Iran escalation re-accelerates; safe haven bid returns."
       }
     ],
     "watchlist": [
       {
-        "thesis": "ASML: only EUV lithography provider. AI capex → more wafers → more lithography needed. Order book visibility strong. Potential regulatory risk (Netherlands/EU export controls on China) is known risk but headline risk exists.",
-        "trigger": "China export restrictions eased OR AI capex acceleration beyond current forecasts",
-        "whyNow": "ASML in AI Infra bucket. Not a core position but thesis-validating holding. If NVDA/AVGO rally continues, ASML follows.",
-        "horizon": "12-24 months"
+        "thesis": "TSM: May 8 monthly sales data. TSM not held but key for AI infrastructure narrative. If April sales strong \u2192 validates AI chip demand; if weak \u2192 semi equipment names face risk.",
+        "trigger": "May 8 TSMC monthly sales release.",
+        "whyNow": "TSMC is the 'picks and shovels' of AI \u2014 confirms or denies the buildout pace thesis.",
+        "horizon": "Event-driven"
       },
       {
-        "thesis": "Singapore REITs: accumulate selectively on yield spread vs SGS. CICT, Ascendas, MLT all pivoting to digital infra (data centers). Not all REITs created equal — prefer New Economy asset exposure vs traditional office.",
-        "trigger": "SGS 10Y yield pullback below 3.5%; OR Fed pivot signaling",
-        "whyNow": "REITs bounced in April but still offering 5-6% yields. Yield spread vs risk-free still attractive for income investors. Avoid pure office/exposure.",
-        "horizon": "6-12 months"
+        "thesis": "EWY (South Korea ETF): KL not directly exposed but KRW/semicolon supply chain risk. Watch whether Samsung/Hynix memory expansion accelerates \u2014 could threaten MU thesis.",
+        "trigger": "Samsung earnings or KRW weakness beyond 1,400.",
+        "whyNow": "Korean semis = competition to KL's MU/KLAC positions.",
+        "horizon": "Quarterly"
       }
     ]
   },
   "riskWatch": [
     {
-      "name": "Oil supply shock + Fed hawkish = real rate spike",
+      "name": "Warsh Fed Hawkish Pivot",
       "level": "medium",
-      "description": "Brent $114+ with Fed unable to cut creates real rate environment that historically crushes growth assets (equities, gold, REITs). If oil stays elevated through Q3, corporate earnings guidance revisions downward. stagflation risk increasing.",
-      "mitigation": "682k cash (26%) is portfolio hedge. Real assets (oil, uranium, copper) partially offset. Reduce REITs if 10Y UST breaks 5%."
+      "description": "Kevin Warsh takes over May 15. If he signals willingness to keep rates higher-for-longer or even hike, real rates spike \u2192 growth stocks (QQQ, AI infra) compress, gold falls, USD strengthens. KL's barbell at risk if rate differential widens.",
+      "mitigation": "SGD 682K cash buffer acts as natural hedge. Reduce USD bond exposure if Warsh turns hawkish. QQQ position in Index bucket is long-term \u2014 don't react to Fed noise."
     },
     {
-      "name": "Japan carry trade unwind",
+      "name": "Iran Ceasefire Collapse",
       "level": "medium",
-      "description": "Yen surged 2-3% on intervention. If USD/JPY breaks below 150, global carry trades unwind rapidly. Could cause risk-off in SGD/Asia equities. SGD tends to appreciate in risk-off (safe haven).",
-      "mitigation": "682k SGD cash provides natural hedge. Asia/Singapore exposure (STI, REITs, banks) vs global equities balanced. Not overexposed to carry."
+      "description": "Peace proposal not yet confirmed. If ceasefire fails, oil re-surges to $120+. Inflation impulse returns \u2192 Fed can't cut \u2192 real rates rise \u2192 both equities and gold compress. SKorea/Japan energy import pain.",
+      "mitigation": "No direct oil position to hedge. Energy sector not KL-owned. Gold and uranium serve as tail hedges. War escalation = real rate negative."
     },
     {
-      "name": "Semiconductor sector concentration risk",
-      "level": "high",
-      "description": "PHLX semi at record 41.9% of IT sector. Historical precedent (Dot-com) suggests this level is unsustainable. If AI capex disappoints OR rotation out of mega-cap tech begins, semi equipment/AI Infra bucket faces sharp drawdown. KL's AI Infra bucket (16% = 420k) is heavily exposed.",
-      "mitigation": "Diversified across semi equipment (AMAT, LRCX, KLAC, MU) not pure NVDA. Semi equipment orders = 12-18 month visibility. Thesis held if NVDA/AVGO earnings stay strong. Reduce if AI Infra bucket >20% of portfolio."
-    },
-    {
-      "name": "Geopolitical tail risk: Iran war escalation",
+      "name": "AI Capex Concentration Risk",
       "level": "low",
-      "description": "Strait of Hormuz 20% oil supply disruption already priced. If escalation → $130-150 oil possible → global recession risk → Fed forced to cut = different scenario (inflationary recession). Would impact SGD equities, REITs, Asia. Gold recovers in this scenario.",
-      "mitigation": "Portfolio real assets (metals, energy, uranium) provide inflation hedge in this scenario. Gold recovers. Not overweight in any single geopolitical bet."
+      "description": "AI infrastructure plays (NVDA, AVGO, TSM, MU) now a huge % of market cap. If hyperscaler capex disappoints (driven by DeepSeek efficiency or economic slowdown), concentrated AI plays reprice fast.",
+      "mitigation": "KL's barbell (40.4% foundation vs 59.6% risk) provides diversification. Index 524K position hedges against sector rotation. Equipment names (AMAT, LRCX, KLAC) less concentrated than GPU names."
     }
   ],
   "keyEvents": [
     {
-      "text": "Fed holds rates at 3.5-3.75% (3rd consecutive); 3 dissenters wanted explicit no-cut signal; Powell to stay on as governor",
-      "icon": "🏛️",
-      "source": "Federal Reserve FOMC statement Apr 29"
+      "text": "Kevin Warsh Senate confirmation vote \u2014 expected before May 15",
+      "icon": "\ud83c\udfdb\ufe0f",
+      "source": "CNBC, Al Jazeera"
     },
     {
-      "text": "Japan intervenes in FX; yen surges 2-3% to 155.5 vs USD — biggest single-day gain in 3 years",
-      "icon": "🇯🇵",
-      "source": "Reuters, Bloomberg Apr 30"
+      "text": "Jerome Powell steps down as Fed Chair \u2014 May 15 transition",
+      "icon": "\u2696\ufe0f",
+      "source": "Federal Reserve, BBC"
     },
     {
-      "text": "Brent crude at $114-115/barrel; spiked to $126 wartime high earlier in week",
-      "icon": "🛢️",
-      "source": "Fortune, Reuters Apr 30"
+      "text": "TSMC April sales data \u2014 May 8 (Taiwan)",
+      "icon": "\ud83c\uddf9\ud83c\uddfc",
+      "source": "TSMC Investor Relations"
     },
     {
-      "text": "NVDA crosses $5T market cap (~$208/share) on AI chip rally Apr 24",
-      "icon": "🤖",
-      "source": "Reuters Apr 24"
+      "text": "Apple Q2 FY2026 earnings call \u2014 strong beat confirmed May 1",
+      "icon": "\ud83c\udf4e",
+      "source": "Apple Investor Relations"
     },
     {
-      "text": "AVGO Q1 AI revenue $8.4B (+106% YoY); fiscal 2026 AI revenue guided $10.7B",
-      "icon": "💻",
-      "source": "Yahoo Finance, Motley Fool"
+      "text": "Iran peace proposal to Pakistan mediators \u2014 outcome uncertain",
+      "icon": "\ud83d\udd4a\ufe0f",
+      "source": "NYT, CNBC"
     },
     {
-      "text": "India rupee hits record low; -10% YoY vs USD; oil shock adding $40-50B import cost (~1% GDP)",
-      "icon": "🇮🇳",
-      "source": "Economic Times Apr 30"
+      "text": "Fed FOMC next meeting \u2014 June 17\u201318, 2026",
+      "icon": "\ud83d\udcc5",
+      "source": "Federal Reserve calendar"
     },
     {
-      "text": "UAE quits OPEC — 'pivotal moment' for oil producing group; supply discipline breaking down",
-      "icon": "🛢️",
-      "source": "Guardian Apr 30"
-    },
-    {
-      "text": "Gold below $4,550/oz — 1-month low; hawkish Fed real rate pressure overriding geopolitical bid",
-      "icon": "🥇",
-      "source": "livemint, macrotrends Apr 30"
-    },
-    {
-      "text": "Uranium $87/lbs flat; +27.9% YoY; Sprott Physical Uranium Trust accumulating",
-      "icon": "☢️",
-      "source": "CME Group, Barchart Apr 29"
-    },
-    {
-      "text": "STI +7.15% YTD through Apr 8; +29% over 12 months; Singapore REITs rebounded in April",
-      "icon": "🇸🇬",
-      "source": "SGX, Growbeansprout Apr 8"
+      "text": "Intel shares briefly above $100 \u2014 May 1, 2026",
+      "icon": "\ud83d\udcbb",
+      "source": "OregonLive, Reuters"
     }
   ],
   "bottomLine": {
     "whatMatters": [
-      "Fed hold + hawkish dissent = real rates stay elevated through 2026. Gold and REITs face headwinds short-term.",
-      "Oil war premium structural ($114+ Brent). Iran conflict not 2-week event. 20% Hormuz disruption + UAE quit OPEC = oil stays elevated even if conflict de-escalates.",
-      "AI infrastructure capex supercycle confirmed by earnings. Semi equipment (AMAT, LRCX, KLAC) is the diversified way to play — not pure NVDA.",
-      "Japan FX intervention breaks 160 level — yen strengthening. Carry trade unwinding risk elevated but SGD relatively insulated."
+      "Warsh's policy direction at first FOMC meeting (June) will set rate/oil/gold tone for H2 2026",
+      "Iran peace process outcome \u2014 oil at $101 vs $126 changes inflation trajectory significantly",
+      "MU and KLAC earnings revisions \u2014 AI memory cycle still in early innings; analyst targets not yet consensus",
+      "TSMC May 8 sales data \u2014 will confirm or dent AI infrastructure buildout pace thesis"
     ],
     "whatToDo": [
-      "Hold 682k SGD cash (26%). Don't chase equities at current valuations — Fed hawkish + elevated P/E = risk/reward poor short-term.",
-      "Accumulate gold on $4,400-4,500 dips toward support. Real rate peak will come — when Fed pivots, gold runs. Timing is uncertain; position accordingly.",
-      "Semi equipment names (AMAT, LRCX, KLAC) preferred over pure chip designers. More diversified, less volatile, order visibility 12-18 months.",
-      "Singapore REITs: selective accumulation in digital-infra focused REITs. Avoid pure office exposure. 5-6% yields still attractive vs SGS."
+      "Hold AI infrastructure core positions (NVDA, AVGO, TSM, ASML, AMAT, LRCX, KLAC) \u2014 momentum intact",
+      "Add to KLAC on any pullback \u2014 $1,500 target = 60%+ upside, momentum underappreciated",
+      "Maintain SGD 682K cash \u2014 forex hedge + dry powder for Warsh transition volatility",
+      "Trim GLDM slightly (gold) into Warsh confirmation \u2014 real rate risk offsetting geopolitical bid",
+      "MLT (industrial REIT with data center exposure) more attractive than CICT in Singapore REITs"
     ],
     "whatToIgnore": [
-      "'Crisis = gold up' heuristic — wrong in inflationary supply shock + hawkish Fed scenario. Real rates determine gold, not geopolitics.",
-      "Short-term NVDA price levels — $5T market cap is milestone, not signal. AI capex cycle is multi-year.",
-      "Oil headlines about $126 spike — war premium already priced. Focus on whether $86+ 2026 average forecast holds.",
-      "India macro noise — concerning for EM but Singapore relatively insulated. Not a sell signal for SGD assets."
+      "Daily oil price noise from Iran headlines \u2014 peace signal is credible but unconfirmed; don't front-run",
+      "Intel above $100 narrative \u2014 not KL-owned, distraction from actual portfolio positioning",
+      "May seasonal weakness narrative \u2014 historically weak May\u2013October but AI infrastructure cycle trumps seasonality in 2026",
+      "First-order 'gold up in crisis' heuristics \u2014 gold is real rate asset; if geopolitical shock \u2192 inflation \u2192 real rates rise \u2192 gold may fall"
     ]
   },
-  "date": "2026-04-30",
-  "lastUpdated": "2026-04-30T23:34:00.263524+00:00"
+  "date": "May 2, 2026",
+  "lastUpdated": "2026-05-01T23:34:54.199839Z"
 }
