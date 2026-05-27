@@ -1,191 +1,342 @@
 {
   "executiveSummary": [
     {
-      "text": "Regime: risk-on but rate-capped. Yahoo Finance live strip shows S&P futures +0.27%, Nasdaq futures +0.39%, VIX 17.00, Brent $93.66 (-3.11%) and gold $4,520.20 (-0.33%). Scenario weights: 45% constructive grind if oil relief lowers inflation and real yields, 35% choppy valuation cap if yields stay high, 20% correlated drawdown if Iran/Hormuz risk re-spikes oil and Fed pricing hardens. Confidence: medium.",
+      "text": "Regime: constructive but oil/PCE/real-yield gated. Verified inputs: S&P 500 7,520.36 (+0.02%), Nasdaq 26,674.73 (+0.07%), VIX 16.29 (-4.23%), Brent about $93.6, gold about $4,480, US 10Y 4.48% and 10Y real yield 2.09% on official 27 May data. Scenarios: 45% risk-on grind if oil stays sub-$100 and PCE does not reprice Fed tighter; 35% choppy valuation cap from real yields near 2%; 20% correlated drawdown if oil/Hormuz re-spikes and real yields rise. Confidence: medium.",
       "sentiment": "cautious-positive",
       "tag": "REGIME"
     },
     {
-      "text": "AI memory is the fresh portfolio signal: Yahoo Finance reported Micron topping $1T market cap after UBS tripled its target, and SK Hynix joining Micron in the $1T club as AI memory rally accelerates. First order: HBM/DRAM scarcity is being repriced. Second order: upstream wafer, equipment and packaging demand supports the AI-infra basket. Third order: if memory valuations run ahead of capex/earnings and real yields rise, the same scarcity winners can de-rate sharply. Confidence: medium-high on demand signal, medium on price path.",
+      "text": "AI infra is the strongest fresh signal: within 24h, Snowflake committed $6B to AWS, Marvell guided above estimates on AI data-center chip demand, SK Hynix crossed $1T market cap, and CNBC noted broader participation beyond AI megacaps. First order: compute/networking/memory demand remains real. Second order: hyperscaler spend supports AWS, custom silicon, HBM, foundry and equipment. Third order: if real yields rise after PCE, scarcity winners can still de-rate. Confidence: medium-high on demand, medium on price path.",
       "sentiment": "positive",
-      "tag": "AI_MEMORY"
+      "tag": "AI_INFRA"
     },
     {
-      "text": "Oil is still the macro switch. Fresh Yahoo/Bloomberg and Yahoo/Reuters reports say US-Iran talks/truce remain shaky while oil prices eased. First order: cheaper oil reduces headline-inflation pressure. Second order: fewer Fed-hike/fewer higher-for-longer fears can lower real yields. Third order: this is what helps QQQ/AI, REITs and gold; if oil rebounds, gold can fall with duration assets because real yields and cash returns rise. Confidence: medium.",
+      "text": "Oil is the macro switch, not a simple risk headline. CNBC reported WTI fell >5% to $88.68 and Brent to $94.29 after Rubio said Iran talks would get “every chance,” while live prices later firmed around the mid-$90s. Oil relief lowers inflation pressure (1st), reduces Fed higher-for-longer/real-yield risk (2nd), supporting QQQ/AI, REITs and gold (3rd). If Hormuz stress returns, gold can fall with duration assets because real cash returns rise. Confidence: medium.",
       "sentiment": "mixed",
-      "tag": "OIL_FED"
+      "tag": "OIL_RATES"
     },
     {
-      "text": "Fed constraint remains real: official US Treasury data for 26 May show 2Y 4.01%, 10Y 4.50%, 30Y 5.03%, with 10Y real yield 2.10%; Brave/CME FedWatch result is fresh and continues to frame policy probabilities as the key market input. First order: elevated real yields raise discount rates. Second order: growth/AI multiples and S-REIT cap rates stay under pressure. Third order: cash remains a high-quality option, not dead weight. Confidence: high on causal chain.",
+      "text": "Fed/PCE is the next gatekeeper. CNBC/Reuters flagged April PCE due Thursday 8:30am ET. Probabilities: 40% in-line/benign keeps risk bid, 35% modestly hot caps multiples, 25% hot print pushes yields/real yields higher and hits AI/REITs/gold together. Confidence: medium.",
       "sentiment": "cautious",
-      "tag": "RATES"
+      "tag": "PCE"
     },
     {
-      "text": "Singapore-specific verified news inside the strict 24h window was sparse. The latest Yahoo Singapore quote page available in-session showed STI 5,028.80 (-0.82%) at the 26 May close, but it was slightly outside the 24h window by run time, so it is context only, not a fresh news driver. Confidence: high on exclusion discipline.",
+      "text": "Singapore-specific verified portfolio news was sparse inside the strict 24h window. Treat SG banks/REITs as rate-channel exposures today: higher-for-longer helps bank NIM first but pressures REIT cap rates/refinancing; later growth stress can reverse bank benefit. Confidence: medium.",
       "sentiment": "neutral",
       "tag": "SINGAPORE"
     }
   ],
   "regime": {
-    "label": "Risk-on, real-yield ceiling",
+    "label": "Risk-on, oil/PCE gatekeeper",
     "metrics": [
-      {"label": "S&P futures", "value": "7,557.25", "change": "+20.25 / +0.27%; Yahoo Finance live strip checked 2026-05-27"},
-      {"label": "Nasdaq futures", "value": "30,189.50", "change": "+116.00 / +0.39%; Yahoo Finance live strip checked 2026-05-27"},
-      {"label": "Dow futures", "value": "50,771.00", "change": "+224.00 / +0.44%; Yahoo Finance live strip checked 2026-05-27"},
-      {"label": "VIX", "value": "17.00", "change": "-0.01 / -0.06%; Yahoo Finance live strip checked 2026-05-27"},
-      {"label": "Gold futures", "value": "$4,520.20", "change": "-14.80 / -0.33%; Yahoo Finance live strip checked 2026-05-27"},
-      {"label": "Brent crude", "value": "$93.66", "change": "-3.01 / -3.11%; Yahoo Finance live strip checked 2026-05-27"},
-      {"label": "WTI crude", "value": "$90.35", "change": "-3.77%; Yahoo Finance link text checked 2026-05-27"},
-      {"label": "US 2Y Treasury yield", "value": "4.01%", "change": "Official Treasury 2026-05-26; down from 4.13% on 2026-05-22"},
-      {"label": "US 10Y Treasury yield", "value": "4.50%", "change": "Official Treasury 2026-05-26; down from 4.56% on 2026-05-22"},
-      {"label": "US 30Y Treasury yield", "value": "5.03%", "change": "Official Treasury 2026-05-26; down from 5.07% on 2026-05-22"},
-      {"label": "US 10Y real yield", "value": "2.10%", "change": "Official Treasury TIPS 2026-05-26; down from 2.16% on 2026-05-22"},
-      {"label": "STI context", "value": "5,028.80", "change": "-41.75 / -0.82% at 26 May close; outside strict 24h by run time, used as context only"}
+      {
+        "label": "S&P 500",
+        "value": "7,520.36",
+        "change": "+1.24 / +0.02%; Yahoo Finance live strip, checked 2026-05-28 SGT"
+      },
+      {
+        "label": "Nasdaq",
+        "value": "26,674.73",
+        "change": "+18.55 / +0.07%; Yahoo Finance live strip, checked 2026-05-28 SGT"
+      },
+      {
+        "label": "Dow 30",
+        "value": "50,644.28",
+        "change": "+182.60 / +0.36%; Yahoo Finance live strip, checked 2026-05-28 SGT"
+      },
+      {
+        "label": "VIX",
+        "value": "16.29",
+        "change": "-0.72 / -4.23%; Yahoo Finance live strip, checked 2026-05-28 SGT"
+      },
+      {
+        "label": "Gold futures",
+        "value": "~$4,480.40",
+        "change": "-1.10 / -0.02%; Yahoo Finance live strip, checked 2026-05-28 SGT"
+      },
+      {
+        "label": "Brent crude",
+        "value": "~$93.57",
+        "change": "+1.32 / +1.43%; Yahoo Finance live strip after CNBC report of prior close at $94.29"
+      },
+      {
+        "label": "US 2Y Treasury yield",
+        "value": "4.00%",
+        "change": "Official Treasury data for 2026-05-27"
+      },
+      {
+        "label": "US 10Y Treasury yield",
+        "value": "4.48%",
+        "change": "Official Treasury data for 2026-05-27"
+      },
+      {
+        "label": "US 30Y Treasury yield",
+        "value": "5.01%",
+        "change": "Official Treasury data for 2026-05-27"
+      },
+      {
+        "label": "US 10Y real yield",
+        "value": "2.09%",
+        "change": "Official Treasury TIPS data for 2026-05-27"
+      },
+      {
+        "label": "STI context",
+        "value": "5,028.80",
+        "change": "Latest Yahoo quote page showed 26 May close -0.82%; not treated as fresh news under 24h rule"
+      }
     ]
   },
   "portfolioNews": {
     "usGlobal": [
       {
-        "what": "Yahoo Finance reported Micron rose 19.29% and topped $1T market cap after UBS said the AI boom changed the memory-chip market and tripled its price target to a Street high.",
-        "why": "First order: memory pricing power and HBM scarcity are being capitalized. Second order: sustained HBM/DRAM demand supports upstream tools, foundry capacity and advanced packaging. Third order: if the market extrapolates memory margins too far while real yields stay near 2%+, MU and semis can become crowded duration/earnings-revision risk rather than pure scarcity exposure.",
-        "tickers": ["MU", "NVDA", "AVGO", "TSM", "ASML", "AMAT", "LRCX", "KLAC", "QQQ"],
+        "what": "CNBC/Yahoo reported Snowflake surged after an earnings beat and a plan to spend $6B on Amazon Web Services; Reuters/Yahoo timestamp was within 24h.",
+        "why": "First order: enterprise AI/data workloads keep driving cloud commitments. Second order: AWS utilization benefits AMZN and reinforces compute/networking/custom-silicon demand. Third order: if AI disruption fears pressure SaaS margins, spend may concentrate in cloud-infra winners while software multiples compress. Probability: 50% positive cloud-infra read-through, 30% mixed software rotation, 20% capex concern. Confidence: medium.",
+        "tickers": [
+          "AMZN",
+          "MSFT",
+          "GOOG",
+          "NVDA",
+          "AVGO",
+          "TSM",
+          "QQQ"
+        ],
         "urgency": "🟡",
-        "implication": "Positive thesis confirmation; do not chase parabolic memory exposure without a pullback or real-yield relief. Probability: 50% durable HBM-led upcycle, 30% valuation chop, 20% margin/oversupply disappointment. Confidence: medium-high."
+        "implication": "Positive for AI-infra demand chain; not a reason to chase SaaS broadly."
       },
       {
-        "what": "Yahoo Finance reported SK Hynix joined Micron in the $1T club as the AI memory-chip rally accelerated; article timestamp 2026-05-27T02:45Z.",
-        "why": "First order: the market is rewarding AI memory suppliers beyond Nvidia. Second order: this broadens the AI-infra thesis from GPU designers into memory, packaging, foundry and semicap enablers. Third order: leadership rotation can help KL's diversified scarcity basket, but it also raises crowding risk if investors treat every bottleneck stock as immune to cycles.",
-        "tickers": ["MU", "TSM", "ASML", "AMAT", "LRCX", "KLAC", "NVDA", "AVGO", "EWY", "QQQ"],
+        "what": "Reuters/Yahoo and Bloomberg reported Marvell guided quarterly revenue above estimates, citing AI data-center networking and custom silicon demand; shares rose after hours.",
+        "why": "First order: AI buildout needs networking/custom silicon, not only GPUs. Second order: stronger Marvell demand broadens the bottleneck chain across interconnect, ASICs, HBM and foundry capacity. Third order: AVGO/TSM/equipment read-throughs improve, but PCE-driven real-yield rises can still compress multiples. Probability: 55% thesis-confirming, 30% valuation-choppy, 15% capex digestion. Confidence: medium-high.",
+        "tickers": [
+          "AVGO",
+          "NVDA",
+          "TSM",
+          "ASML",
+          "AMAT",
+          "LRCX",
+          "KLAC",
+          "QQQ"
+        ],
         "urgency": "🟡",
-        "implication": "Scarcity thesis validated; prefer diversified AI-infra ownership over single-name FOMO. Confidence: medium."
+        "implication": "Hold diversified AI-infra scarcity exposure; add only on pullbacks or bond-market confirmation."
       },
       {
-        "what": "Yahoo Finance live market article said US stock futures wavered/slipped as investors watched US-Iran talks; the live strip later showed futures modestly green, with S&P futures +0.27% and Nasdaq futures +0.39%.",
-        "why": "First order: risk appetite remains constructive despite geopolitical uncertainty. Second order: if oil relief persists, inflation expectations and real yields can soften. Third order: this supports QQQ/AI and REIT valuation only if bond markets confirm; otherwise futures strength is a fragile relief rally.",
-        "tickers": ["VWRA", "QQQ", "NVDA", "MSFT", "AMZN", "GOOG", "DBS", "OCBC", "UOB"],
+        "what": "Yahoo/Semafor reported SK Hynix crossed $1T market capitalization as AI memory demand propelled the sector; article timestamp 27 May 18:43 SGT.",
+        "why": "First order: HBM/memory scarcity is being repriced. Second order: memory strength pulls through wafer starts, equipment, packaging and foundry demand. Third order: crowding risk rises because investors may treat a cyclical industry as permanently scarce. Probability: 50% durable HBM upcycle, 30% crowded chop, 20% cyclical mean reversion. Confidence: medium.",
+        "tickers": [
+          "MU",
+          "TSM",
+          "ASML",
+          "AMAT",
+          "LRCX",
+          "KLAC",
+          "NVDA",
+          "AVGO",
+          "EWY"
+        ],
         "urgency": "🟡",
-        "implication": "Hold core risk; new deployment should wait for oil plus real-yield confirmation. Confidence: medium."
+        "implication": "Scarcity thesis validated; avoid FOMO after vertical memory moves."
+      },
+      {
+        "what": "CNBC reported AI stock dominance is raising concerns but the rally is broadening; article published 27 May 20:03 UTC.",
+        "why": "First order: broader participation lowers single-theme fragility. Second order: better earnings breadth makes VWRA/QQQ less dependent on a few AI names. Third order: if breadth is late-cycle catch-up while rates stay high, the whole rally can still de-rate together. Probability: 45% healthy broadening, 35% range-bound grind, 20% false breadth. Confidence: medium.",
+        "tickers": [
+          "VWRA",
+          "QQQ",
+          "NVDA",
+          "MSFT",
+          "AMZN",
+          "GOOG"
+        ],
+        "urgency": "🟢",
+        "implication": "Constructive for foundation index sleeve, but still gated by PCE/real yields."
       }
     ],
     "singapore": [],
     "commodities": [
       {
-        "what": "Yahoo/Bloomberg reported US officials touting Iran deal prospects amid fresh Hormuz tensions; Yahoo/Reuters reported global shares advanced and oil prices eased while markets weighed a shaky US-Iran truce.",
-        "why": "First order: oil down reduces headline inflation impulse. Second order: lower inflation pressure reduces Fed-hike/higher-for-longer probability and can pull real yields lower. Third order: gold, QQQ/AI and REITs benefit only through lower real yields; if oil rebounds because the truce fails, gold can decline despite geopolitical stress because cash/real yields become more attractive.",
-        "tickers": ["Gold", "Silver", "Copper", "Uranium", "GRID", "QQQ", "NVDA", "MSFT", "AMZN", "GOOG", "Ascendas", "CICT", "MLT", "FCT", "Sembcorp", "Keppel"],
+        "what": "CNBC reported WTI fell >5% to $88.68 and Brent >5% to $94.29 after Rubio said US-Iran talks made progress; the report also noted Hormuz carried about 20% of world oil supply before the war and industry skepticism over rapid flow normalization.",
+        "why": "First order: oil relief lowers headline inflation impulse. Second order: less inflation pressure reduces Fed tightening risk and can ease real yields. Third order: AI/QQQ, S-REITs and gold benefit only if real yields fall; if oil re-spikes, gold can decline despite crisis headlines because real cash returns rise. Probability: 45% oil-relief range, 35% volatile mid-$90s, 20% renewed spike. Confidence: medium.",
+        "tickers": [
+          "Gold",
+          "Silver",
+          "Copper",
+          "Uranium",
+          "GRID",
+          "QQQ",
+          "NVDA",
+          "Ascendas",
+          "CICT",
+          "MLT",
+          "FCT",
+          "Sembcorp",
+          "Keppel"
+        ],
         "urgency": "🔴",
-        "implication": "Oil is the gatekeeper variable for today's rates/gold/AI chain. Probability: 45% oil-relief grind, 35% volatile range, 20% renewed spike. Confidence: medium."
+        "implication": "Oil is today’s portfolio-wide transmission variable; watch real yields, not crude headlines alone."
       },
       {
-        "what": "Gold futures were lower at $4,520.20 (-0.33%) on the Yahoo live strip while Treasury 10Y real yield was 2.10% on the latest official 26 May data.",
-        "why": "First order: gold is responding to real-rate/dollar/liquidity mix, not merely geopolitical headlines. Second order: if oil relief lowers real yields, gold can recover; if oil shock returns and Fed must stay tight, real yields can rise. Third order: in that inflationary shock, gold may be sold versus cash even while crisis headlines intensify.",
-        "tickers": ["Gold", "Silver", "Cash", "QQQ", "REITs"],
+        "what": "Trading Economics/Brave snippet within 24h said gold fell about 2% toward $4,400 as declining oil eased inflation-spike fears; Yahoo live strip later showed gold around $4,480.",
+        "why": "First order: lower oil reduces inflation fear but can also reduce crisis premium. Second order: real yields are decisive—falling real yields support gold, rising real yields hurt it. Third order: an inflationary oil shock can make cash beat gold even during geopolitical stress. Probability: 40% range-bound gold while real yields stay near 2.1%, 35% rebound if real yields fall, 25% further weakness if PCE/oil lift real yields. Confidence: high on framework, medium on price.",
+        "tickers": [
+          "Gold",
+          "Silver",
+          "Cash"
+        ],
         "urgency": "🟡",
-        "implication": "Hold metals as real-rate hedge/diversifier; do not add purely on crisis narrative. Confidence: high on framework, medium on near-term price path."
+        "implication": "Do not add metals because “crisis”; add only if real-rate/liquidity setup improves."
       }
     ]
   },
   "narratives": [
     {
-      "title": "AI memory scarcity is becoming a market leadership narrative",
-      "description": "Micron and SK Hynix $1T headlines show investors repricing AI memory as a bottleneck, not a commodity footnote. Probability: 50% durable HBM scarcity supports semis, 30% crowded valuation chop, 20% cyclical margin mean reversion. Confidence: medium-high.",
-      "source": "Yahoo Finance, Micron article timestamp 2026-05-26T20:27Z; SK Hynix article timestamp 2026-05-27T02:45Z",
-      "tickers": ["MU", "NVDA", "AVGO", "TSM", "ASML", "AMAT", "LRCX", "KLAC", "QQQ", "EWY"],
+      "title": "AI infrastructure demand is broadening beyond GPUs",
+      "description": "Snowflake’s AWS commitment, Marvell’s AI networking/custom-silicon guide, and SK Hynix’s $1T memory milestone all occurred/updated within the 24h window. Probability: 55% durable AI-infra demand, 30% valuation chop, 15% capex digestion. Confidence: medium-high.",
+      "source": "CNBC; Yahoo Finance/Reuters; Yahoo Finance/Semafor, all checked 2026-05-28 SGT",
+      "tickers": [
+        "NVDA",
+        "AVGO",
+        "TSM",
+        "ASML",
+        "AMAT",
+        "LRCX",
+        "KLAC",
+        "MU",
+        "AMZN",
+        "MSFT",
+        "GOOG",
+        "QQQ"
+      ],
       "stage": "mid-cycle",
-      "priceImpact": "positive for AI memory and semicap read-throughs, but valuation-sensitive if real yields rise"
+      "priceImpact": "Positive for scarcity basket fundamentals; price impact remains capped if real yields rise."
     },
     {
-      "title": "Oil relief is the Fed relief transmission channel",
-      "description": "Fresh US-Iran/Hormuz reports point to easing oil, but the truce remains shaky. Probability: 45% oil relief holds, 35% choppy range, 20% renewed shock. Confidence: medium.",
-      "source": "Yahoo Finance/Bloomberg 2026-05-26T17:23Z; Yahoo Finance/Reuters 2026-05-27T08:09Z; Yahoo live strip checked 2026-05-27",
-      "tickers": ["QQQ", "VWRA", "Gold", "Silver", "Ascendas", "CICT", "MLT", "FCT", "DBS", "OCBC", "UOB", "Sembcorp", "Keppel"],
+      "title": "Oil relief is the Fed relief channel",
+      "description": "Oil fell hard on diplomacy headlines, but live prices stabilized in the mid-$90s and Hormuz normalization remains uncertain. Probability: 45% benign oil range, 35% choppy, 20% renewed spike. Confidence: medium.",
+      "source": "CNBC oil report published 2026-05-27 12:41 UTC, updated 19:50 UTC; Yahoo live strip checked 2026-05-28 SGT",
+      "tickers": [
+        "QQQ",
+        "VWRA",
+        "Gold",
+        "Silver",
+        "Ascendas",
+        "CICT",
+        "MLT",
+        "FCT",
+        "DBS",
+        "OCBC",
+        "UOB",
+        "Sembcorp",
+        "Keppel"
+      ],
       "stage": "early",
-      "priceImpact": "positive if oil down lowers real yields; negative if oil rebounds and Fed pricing tightens"
+      "priceImpact": "Positive only if oil relief lowers real yields; negative if oil rebounds and Fed pricing tightens."
     },
     {
-      "title": "Real yields remain the ceiling on long-duration winners",
-      "description": "Official Treasury data show 10Y nominal 4.50% and 10Y real yield 2.10% on 26 May. Probability: 45% real yields stay rangebound and cap multiples, 35% drift lower with oil relief, 20% re-accelerate on inflation shock. Confidence: high on causal chain.",
-      "source": "US Treasury nominal and real yield XML, 2026-05-26 data; CME FedWatch fresh Brave result age 17h",
-      "tickers": ["QQQ", "VWRA", "NVDA", "AVGO", "MSFT", "AMZN", "GOOG", "REITs", "Gold", "Silver"],
-      "stage": "mid-cycle",
-      "priceImpact": "mixed: supportive if real yields fall, negative if real yields rise"
+      "title": "PCE can validate or break the relief rally",
+      "description": "April PCE is due 28 May 8:30am ET. Probability: 40% benign, 35% mildly hot, 25% hot enough to lift yields. Confidence: medium.",
+      "source": "CNBC live updates and Reuters trading-day search results within 24h",
+      "tickers": [
+        "VWRA",
+        "QQQ",
+        "NVDA",
+        "MSFT",
+        "AMZN",
+        "GOOG",
+        "REITs",
+        "Gold",
+        "Silver",
+        "Cash"
+      ],
+      "stage": "early",
+      "priceImpact": "Benign print supports duration; hot print pressures AI/REITs/gold through real-yield channel."
     },
     {
-      "title": "Singapore is ballast today, not fresh alpha",
-      "description": "Strict 24h filtering produced no verified Singapore-specific portfolio catalyst. The SG sleeve remains driven by global rates/oil rather than local headlines today. Probability: 55% ballast/sideways, 30% banks outperform REITs if rates stay high, 15% broad global-risk spillover. Confidence: medium.",
-      "source": "Brave Singapore searches checked 2026-05-27; stale items excluded under 24h rule",
-      "tickers": ["DBS", "OCBC", "UOB", "Singtel", "Keppel", "Sembcorp", "Ascendas", "CICT", "MLT", "FCT"],
+      "title": "Singapore sleeve has no fresh local catalyst today",
+      "description": "Strict searches did not verify portfolio-relevant Singapore corporate news inside 24h. The SG sleeve is driven by global rates/oil: banks first benefit from high rates; REITs face refinancing/cap-rate pressure; later growth stress can hurt banks too. Probability: 55% ballast, 30% banks outperform REITs, 15% broad risk-off spillover. Confidence: medium.",
+      "source": "Brave Singapore/Yahoo Finance Singapore searches checked 2026-05-28 SGT; stale stories excluded",
+      "tickers": [
+        "DBS",
+        "OCBC",
+        "UOB",
+        "Singtel",
+        "Keppel",
+        "Sembcorp",
+        "Ascendas",
+        "CICT",
+        "MLT",
+        "FCT"
+      ],
       "stage": "late-cycle",
-      "priceImpact": "neutral; banks relatively better than REITs if real yields stay elevated"
+      "priceImpact": "Neutral locally; rate channel dominates."
     }
   ],
   "secondOrderEffects": [
     {
-      "text": "Oil easing -> lower headline inflation impulse -> Fed has less need to stay restrictive -> real yields can fall -> QQQ/AI, S-REITs and gold get valuation support.",
-      "implication": "Confirm with 10Y real yield direction, not just oil headlines."
+      "text": "Oil relief -> lower headline inflation impulse -> less Fed higher-for-longer pressure -> lower real yields -> QQQ/AI, S-REITs and gold can all benefit.",
+      "implication": "Confirm with Treasury real yields after PCE before adding risk."
     },
     {
-      "text": "Oil truce failure -> crude re-spikes -> inflation expectations rise -> Fed cannot cut and hike-tail pricing returns -> real yields/cash attractiveness rise -> AI multiples, REITs and gold can decline together.",
-      "implication": "This is KL's main correlated drawdown path despite apparent diversification."
+      "text": "Oil/Hormuz relapse -> inflation expectations rise -> Fed cannot cut and may lean hawkish -> real yields/cash returns rise -> AI multiples, REITs and gold can fall together.",
+      "implication": "Main correlated drawdown path for KL despite asset-class diversification."
     },
     {
-      "text": "Memory-stock surge -> capex expectations broaden beyond GPUs -> equipment/foundry/packaging names get read-through -> if everyone crowds the bottleneck basket, rate shocks hit the entire AI-infra sleeve simultaneously.",
-      "implication": "Own scarcity, but avoid chasing vertical moves without valuation discipline."
+      "text": "AI demand broadening -> cloud/networking/memory orders improve -> semicap/foundry read-through strengthens -> crowding increases across the scarcity basket.",
+      "implication": "Own the chain, but avoid treating good demand as immunity from valuation shocks."
     },
     {
-      "text": "Higher-for-longer rates -> SG banks may hold NIM support first -> S-REIT refinancing/cap-rate pressure appears earlier -> later credit-cycle stress can then hit banks if growth weakens.",
-      "implication": "Treat DBS/OCBC/UOB and REITs as different rate exposures, not one dividend bucket."
+      "text": "Hot PCE -> nominal and real yields rise -> long-duration growth and REIT cap rates reprice -> banks may initially look better via NIM, but later growth/credit stress can reverse that benefit.",
+      "implication": "Separate DBS/OCBC/UOB from S-REITs; they are not one generic dividend sleeve."
     },
     {
-      "text": "Cash at 26% of net worth -> opportunity cost looks high in a rally -> but if real yields stay high, cash preserves deployment power -> forced buying into AI/commodity heat is unnecessary for FI target risk control.",
-      "implication": "Cash optionality is part of the barbell, not a failure to invest."
+      "text": "26% cash -> underperforms in a melt-up -> preserves option value if PCE/oil triggers drawdown -> supports FI target by avoiding forced buying at crowded prices.",
+      "implication": "Cash remains strategic optionality, not dead weight."
     }
   ],
   "actionableIdeas": {
     "investment": [
       {
-        "thesis": "Keep AI-infra scarcity exposure, but add only on valuation discipline or real-yield confirmation.",
-        "trigger": "Add in tranches if 10Y real yield breaks below ~2.0%-2.1% while oil stays under control, or if MU/NVDA/AVGO/semicap basket corrects 8-12% without order/capex deterioration.",
-        "whyNow": "Fresh memory headlines confirm scarcity, but price has moved fast and real yields remain a valuation ceiling.",
+        "thesis": "Maintain AI-infra scarcity exposure, but add only on discipline.",
+        "trigger": "Add in tranches only if 10Y real yield falls below roughly 2.0%-2.1% after PCE while oil stays below about $100, or if NVDA/AVGO/TSM/semicap/MU correct 8-12% without capex/order deterioration.",
+        "whyNow": "Fresh Snowflake/Marvell/SK Hynix news confirms demand, but PCE and real yields can still cap multiples.",
         "horizon": "6-24 months",
-        "invalidator": "HBM oversupply, AI capex cuts, semicap order weakness, 10Y real yield >2.25%, Brent >$105-$110, or margin compression in memory/custom silicon."
+        "invalidator": "AI capex cuts, HBM oversupply, semicap order weakness, Brent >$105-$110, or 10Y real yield >2.25%."
       },
       {
-        "thesis": "Preserve the cash barbell until oil/Fed/real-yield regime resolves.",
-        "trigger": "Deploy more aggressively only after oil relief translates into lower real yields and broader earnings revisions, or after thesis-intact drawdowns in VWRA/QQQ/AI infra.",
-        "whyNow": "Cash competes well when real yields are elevated and protects the SGD 3M liquid FI target path from forced buying.",
+        "thesis": "Keep the cash barbell until oil/PCE/real-yield regime resolves.",
+        "trigger": "Deploy more aggressively only if benign PCE plus oil relief pushes real yields lower, or if thesis-intact risk assets sell off on positioning rather than fundamentals.",
+        "whyNow": "Cash competes well when 10Y real yield is ~2.09% and protects the SGD 3M liquid FI path.",
         "horizon": "3-12 months",
-        "invalidator": "Sustained disinflation plus falling real yields plus broad earnings upgrades."
+        "invalidator": "Sustained disinflation, falling real yields and broad earnings upgrades without oil shock."
       }
     ],
     "trading": [
       {
-        "thesis": "Tactical risk adds require oil relief plus bond confirmation.",
-        "trigger": "Small QQQ/AI add only if Brent stays below roughly $95-$100 for several sessions and 10Y real yield trends lower from 2.10%.",
-        "whyNow": "Futures are green and oil is lower, but the truce is shaky and rates still matter more than headlines.",
+        "thesis": "Tactical QQQ/AI adds require oil plus bond confirmation, not headlines alone.",
+        "trigger": "Small add only if Brent remains sub-$95-$100 for several sessions and post-PCE 10Y real yield trends lower.",
+        "whyNow": "AI news is positive, but PCE can reprice the discount rate quickly.",
         "horizon": "1-4 weeks",
-        "invalidator": "Oil rebound, hot inflation data, Fed pushback, or 10Y real yield moving back above ~2.2%."
+        "invalidator": "Hot PCE, oil rebound, Fed hawkish repricing, or 10Y real yield back above ~2.2%."
       },
       {
-        "thesis": "Avoid chasing gold on crisis headlines; trade it through real yields.",
-        "trigger": "Consider adding only if gold weakness coincides with falling real yields or if liquidity/trust stress, not oil inflation, becomes the dominant driver.",
-        "whyNow": "Gold is lower while geopolitical risk remains high, reinforcing that it is a real-rate hedge, not a simple crisis hedge.",
+        "thesis": "Gold trades through real yields, not crisis slogans.",
+        "trigger": "Consider adding only if gold weakness coincides with falling real yields or liquidity/trust stress rather than inflationary oil shock.",
+        "whyNow": "Gold stayed soft despite geopolitical stress, reinforcing the real-rate framework.",
         "horizon": "days to 2 months",
         "invalidator": "Inflationary oil shock pushes Fed pricing and real yields higher."
       }
     ],
     "watchlist": [
       {
-        "thesis": "Memory rally breadth is the next AI scarcity test.",
-        "trigger": "Watch MU/SK Hynix read-throughs into ASML, AMAT, LRCX, KLAC, TSM and AVGO; constructive if equipment/backlog commentary confirms HBM capacity buildout rather than pure multiple expansion.",
-        "whyNow": "The market is repricing memory as a structural AI bottleneck today.",
+        "thesis": "Memory/networking breadth is the next AI scarcity test.",
+        "trigger": "Watch whether Marvell/SK Hynix strength translates into AVGO, TSM, ASML, AMAT, LRCX and KLAC order/backlog commentary, not just price momentum.",
+        "whyNow": "Fresh news shows investors broadening from GPUs to networking and memory.",
         "horizon": "1-8 weeks",
-        "invalidator": "Rally remains isolated to price-target momentum with no order/capex confirmation."
+        "invalidator": "No order/capex confirmation or signs of inventory pull-forward."
       },
       {
-        "thesis": "Singapore REIT additions need benign rate relief, not recessionary rate cuts.",
-        "trigger": "Watch S-REITs only if real yields fall because inflation/oil pressure eases; avoid if yields fall on credit stress.",
-        "whyNow": "Local fresh catalysts are sparse, so the rate channel dominates SG REIT math.",
+        "thesis": "Singapore REITs need benign rate relief, not recessionary cuts.",
+        "trigger": "Watch S-REITs if real yields fall because oil/PCE inflation pressure eases; avoid if yields fall because credit/growth stress rises.",
+        "whyNow": "No fresh local catalyst; global rate channel dominates.",
         "horizon": "1-3 months",
         "invalidator": "Refinancing spreads widen or cap rates rise despite lower headline yields."
       }
@@ -193,57 +344,57 @@
   },
   "riskWatch": [
     {
-      "name": "Oil/Fed real-yield shock",
+      "name": "Oil/PCE real-yield shock",
       "level": "high",
-      "description": "A failed US-Iran/Hormuz truce can lift oil, inflation expectations and Fed tightness. That can raise real yields and hit AI, REITs and gold together.",
-      "mitigation": "Keep cash; require oil and real-yield confirmation before adding duration-heavy exposure; do not buy gold solely because headlines are scary."
+      "description": "A hot PCE print or failed Hormuz diplomacy can lift oil, inflation expectations, Fed tightness and real yields, hitting AI, REITs and gold together.",
+      "mitigation": "Keep cash optionality; require post-PCE real-yield confirmation; do not buy gold solely on crisis headlines."
     },
     {
-      "name": "AI memory crowding",
+      "name": "AI-infra crowding",
       "level": "medium",
-      "description": "Micron/SK Hynix $1T headlines validate scarcity but can also attract momentum flows that overshoot earnings power.",
-      "mitigation": "Prefer diversified scarcity basket; add on pullbacks or confirmed capex/orders, not vertical price action."
+      "description": "Marvell/SK Hynix/Snowflake headlines validate demand but can attract momentum flows that overshoot earnings and capex reality.",
+      "mitigation": "Prefer diversified scarcity basket; add on pullbacks/order confirmation, not vertical moves."
     },
     {
-      "name": "Real-yield ceiling on FI path assets",
+      "name": "Software disruption vs cloud beneficiaries",
       "level": "medium",
-      "description": "10Y real yield at 2.10% remains a meaningful hurdle for QQQ/AI multiples, gold and REIT cap rates.",
-      "mitigation": "Use cash as optionality and demand real-yield relief before increasing risk allocation."
+      "description": "AI spend can lift AWS/custom silicon while pressuring SaaS margins and seats, creating winners and losers inside tech.",
+      "mitigation": "Do not treat all QQQ constituents equally; favor infrastructure enablers over unproven AI-defensive software."
     },
     {
       "name": "Singapore rate divergence",
       "level": "medium",
-      "description": "SG banks and S-REITs respond differently to higher-for-longer: banks may benefit from NIM first, while REITs face refinancing and cap-rate pressure.",
-      "mitigation": "Do not average across the SG dividend sleeve; separate bank ballast from REIT duration."
+      "description": "Higher-for-longer can support bank NIM initially but pressures REIT refinancing and cap rates; later growth stress can hurt banks too.",
+      "mitigation": "Separate bank ballast from REIT duration; add REITs only on benign real-yield relief."
     }
   ],
   "keyEvents": [
     {
-      "text": "US-Iran/Hormuz truce and oil follow-through: watch whether Brent holds below the mid-$90s or reverses toward $100+.",
-      "icon": "🛢️",
-      "source": "Yahoo Finance/Bloomberg 2026-05-26T17:23Z; Yahoo Finance/Reuters 2026-05-27T08:09Z"
-    },
-    {
-      "text": "US cash market open after futures show modest gains; confirm whether AI memory leadership broadens beyond MU/SK Hynix read-throughs.",
-      "icon": "📈",
-      "source": "Yahoo Finance live strip and live market article checked 2026-05-27"
-    },
-    {
-      "text": "Rates confirmation: official 26 May Treasury data show 10Y real yield 2.10%; watch next update and CME FedWatch pricing for whether oil relief lowers the policy-risk premium.",
+      "text": "US April PCE inflation due Thursday 8:30am ET / 8:30pm SGT; key gate for Fed pricing and real yields.",
       "icon": "🏦",
-      "source": "US Treasury XML; CME FedWatch Brave result age 17h"
+      "source": "CNBC live updates and Reuters trading-day result within 24h"
     },
     {
-      "text": "Singapore: no verified fresh local corporate catalyst inside 24h; monitor global rate spillover into banks versus REITs.",
-      "icon": "🇸🇬",
-      "source": "Brave Singapore searches checked 2026-05-27; stale items excluded"
+      "text": "US-Iran/Hormuz negotiations and oil flow headlines; watch whether Brent holds mid-$90s or breaks back above $100.",
+      "icon": "🛢️",
+      "source": "CNBC oil report updated 2026-05-27 19:50 UTC"
+    },
+    {
+      "text": "Marvell/Snowflake after-hours follow-through and whether AI demand read-through broadens into AVGO/TSM/semicap names.",
+      "icon": "🤖",
+      "source": "Reuters/Yahoo and CNBC within 24h"
+    },
+    {
+      "text": "Next Treasury real-yield update after PCE; 10Y real yield was 2.09% on official 27 May data.",
+      "icon": "📈",
+      "source": "US Treasury nominal and real-yield XML"
     }
   ],
   "bottomLine": {
-    "whatMatters": "Two chains matter: AI memory scarcity is confirming KL's AI-infra thesis, and oil -> inflation -> Fed pricing -> real yields is deciding whether that thesis gets rewarded or de-rated. Gold remains a real-rate hedge, not a crisis slogan.",
-    "whatToDo": "Hold core VWRA/QQQ/AI-infra and SG dividend ballast; keep cash optionality; add only if oil relief is confirmed by lower real yields or if thesis-intact AI-infra drawdowns appear. Avoid new REIT/gold adds unless the real-yield channel turns benign.",
-    "whatToIgnore": "Stale Singapore stories older than 24h, first-order 'geopolitics = buy gold' heuristics, and chasing memory-stock headlines without checking valuation, capex and real-yield conditions."
+    "whatMatters": "The core chain is oil/PCE -> Fed pricing -> real yields -> AI multiples, REIT cap rates and gold. AI-infra demand is still confirming KL’s scarcity thesis, but the discount-rate gate decides whether fundamentals are rewarded now.",
+    "whatToDo": "Hold VWRA/QQQ/AI-infra and SG dividend ballast; keep cash optionality; add only after benign PCE/oil relief shows up in lower real yields or after thesis-intact AI-infra pullbacks. Treat gold as a real-rate hedge, not a crisis trade.",
+    "whatToIgnore": "Stale Singapore headlines, generic geopolitical-risk-equals-buy-gold takes, and chasing every AI-adjacent stock without checking order quality, valuation and real-yield direction."
   },
-  "date": "2026-05-27",
-  "lastUpdated": "2026-05-27T17:42:45+08:00"
+  "date": "2026-05-28",
+  "lastUpdated": "2026-05-28T07:37:59+08:00"
 }
