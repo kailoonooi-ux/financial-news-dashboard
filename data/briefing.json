@@ -1,448 +1,431 @@
 {
   "executiveSummary": [
     {
-      "text": "Regime is choppy/risk-selective, not broad liquidation: latest US cash-market close showed S&P 500 +0.05%, Nasdaq -0.64%, Dow +0.46%, VIX 18.58 (-0.64%), and equal-weight RSP +0.78%. Leadership is rotating away from crowded AI/platform beta rather than a full risk-off flush. Scenario weights: 45% earnings-led chop/rotation, 25% oil-rates inflation squeeze, 20% breadth repair, 10% liquidity/geopolitical shock. Confidence: medium.",
+      "text": "US risk tone is mixed/rotation, not broad de-risking: S&P 500 +0.02%, Nasdaq -0.18%, Dow +0.51%, VIX 18.67 (+0.48%), equal-weight RSP +0.75%. Breadth beat cap-weight because crowded AI/semis sold while cyclicals/financials held up. Scenario weights: 45% earnings-led chop/rotation, 25% oil-rates inflation squeeze, 20% breadth repair, 10% liquidity/geopolitical shock. Confidence: medium.",
       "sentiment": "neutral",
       "tag": "US/global risk"
     },
     {
-      "text": "Rates remain the cross-asset governor: 2Y around 4.33% per fresh Treasury-yield reporting, 10Y 4.679%, 30Y 5.162%, DXY 101.31. Fresh news says bond traders are increasing odds of a Fed hike/hawkish-hold outcome as oil and inflation risks re-price. 2nd order: higher long yields pressure REITs, duration equities and AI capex payback multiples even if nominal growth looks resilient.",
-      "sentiment": "negative",
-      "tag": "Rates/Fed/liquidity"
+      "text": "Rates eased with oil after Middle East risk cooled: 5Y 4.40%, 10Y 4.64%, 30Y 5.13%; DXY 101.51, USD/SGD 1.291. The Fed is still expected to hold this week, but the market is debating whether oil volatility contaminates inflation expectations. 2nd order: lower yields help REITs/duration; renewed oil spike would reverse that quickly.",
+      "sentiment": "neutral",
+      "tag": "rates/Fed/USD"
     },
     {
-      "text": "AI is entering a “prove the ROI” phase: fresh Yahoo/Fortune coverage says Big Tech earnings land into a market revolt over AI spending, while semicap suppliers remain the clearer near-term beneficiaries of hyperscaler capex. KL implication: scarcity thesis is intact, but valuation air pockets in semis/equipment can be violent.",
-      "sentiment": "neutral",
+      "text": "AI/semis are the main stress pocket: NVDA -4.99%, ASML -5.80%, LRCX -4.46%, AMAT -3.61%, KLAC -3.40% after reports of a potential Nvidia/OpenAI financing backstop revived circular-financing and AI ROI concerns. This questions funding quality and margins, not the structural compute scarcity thesis yet.",
+      "sentiment": "negative",
       "tag": "AI/semis"
     },
     {
-      "text": "Commodities are mixed but regime-relevant: Brent 92.05 (-4.89%) and WTI 84.94 (-4.89%) eased on diplomacy headlines, while gold 4,087 (+0.49%), silver 59.83 (+2.01%) and copper 6.36 (+0.62%) held firm. Transmission is oil shock -> inflation expectations -> real yields/USD -> liquidity/trust demand, not a lazy “crisis = gold up” rule.",
+      "text": "Commodities are sending a disinflationary near-term signal despite geopolitical noise: WTI -8.12%, Brent -9.13%, copper +1.14%, gold +0.16%, silver +0.04%, URNM +1.19%. Oil fell because traders priced easing West Asia tension, record US production/strategic reserves and softer China demand against chokepoint risk.",
       "sentiment": "neutral",
-      "tag": "Commodities/energy"
+      "tag": "commodities/geopolitics"
     },
     {
-      "text": "KL abnormal-move scan found material hits in semicap/AI holdings: MU -6.99%, AMAT -4.72%, LRCX -4.56%, KLAC -3.75%; uranium ETFs URNM -3.15% and URA -3.01% also crossed thresholds. These look like positioning/valuation de-risking rather than thesis breakage unless hyperscaler capex is cut or memory/equipment order books roll over.",
-      "sentiment": "negative",
-      "tag": "Portfolio add-on"
+      "text": "Singapore remains ballast-like: local banks rose modestly (DBS +0.60%, OCBC +0.69%, UOB +0.42%), STI proxy ES3 +0.71%; REIT moves were small. Fresh Singapore data showed June factory output +7.2% y/y, below expectations and slower than May, while MAS very slightly tightened policy.",
+      "sentiment": "positive",
+      "tag": "Asia/Singapore"
     },
     {
-      "text": "Singapore remains ballast-like: STI +0.12%, DBS +0.60%, OCBC +0.66%, UOB +0.74%, USD/SGD 1.2896 (-0.25%). REITs remain rate-sensitive: Ascendas -1.19%, CICT -1.61%, Keppel DC REIT quote unavailable in this scan.",
+      "text": "Portfolio add-on: abnormal KL moves cluster in semicap/equipment and a positive EDA/toll-road offset: SNPS +4.16% on Microsoft/AMD agentic EDA workflow news; SPGI +3.15% after earnings/guidance strength. Action bias: HOLD core scarcity assets; add only on deeper forced de-rating, not on the first down day.",
       "sentiment": "neutral",
-      "tag": "Singapore"
+      "tag": "portfolio"
     }
   ],
   "regime": {
-    "label": "Choppy rotation / hawkish-rates watch",
+    "label": "Risk-selective rotation: broad market resilient, AI/semis under pressure, rates/oil easing",
     "metrics": [
       {
         "label": "S&P 500",
-        "value": "7411.98 (+0.05%)",
-        "change": "+0.05%"
+        "value": "7413.18",
+        "change": "+0.02%"
       },
       {
-        "label": "Nasdaq",
-        "value": "24975.82 (-0.64%)",
-        "change": "-0.64%"
+        "label": "Nasdaq Composite",
+        "value": "24932.08",
+        "change": "-0.18%"
       },
       {
         "label": "Dow",
-        "value": "51947.25 (+0.46%)",
-        "change": "+0.46%"
+        "value": "52210.08",
+        "change": "+0.51%"
       },
       {
         "label": "VIX",
-        "value": "18.58 (-0.64%)",
-        "change": "-0.64%"
+        "value": "18.67",
+        "change": "+0.48%"
       },
       {
-        "label": "10Y Treasury",
-        "value": "4.679% (-0.51%)",
-        "change": "4.679%"
+        "label": "Equal-weight S&P ETF RSP",
+        "value": "215.18",
+        "change": "+0.75%"
       },
       {
-        "label": "30Y Treasury",
-        "value": "5.162% (-0.17%)",
-        "change": "5.162%"
+        "label": "5Y Treasury yield",
+        "value": "4.40%",
+        "change": "-0.66%"
+      },
+      {
+        "label": "10Y Treasury yield",
+        "value": "4.64%",
+        "change": "-0.81%"
+      },
+      {
+        "label": "30Y Treasury yield",
+        "value": "5.13%",
+        "change": "-0.72%"
       },
       {
         "label": "DXY",
-        "value": "101.31 (-0.15%)",
-        "change": "-0.15%"
-      },
-      {
-        "label": "Gold",
-        "value": "4087.40 (+0.49%)",
-        "change": "+0.49%"
-      },
-      {
-        "label": "Silver",
-        "value": "59.83 (+2.01%)",
-        "change": "+2.01%"
-      },
-      {
-        "label": "WTI",
-        "value": "84.94 (-4.89%)",
-        "change": "-4.89%"
-      },
-      {
-        "label": "STI",
-        "value": "5588.34 (+0.12%)",
-        "change": "+0.12%"
+        "value": "101.51",
+        "change": "+0.04%"
       },
       {
         "label": "USD/SGD",
-        "value": "1.29 (-0.25%)",
-        "change": "-0.25%"
+        "value": "1.2914",
+        "change": "+0.17%"
+      },
+      {
+        "label": "WTI crude",
+        "value": "82.06",
+        "change": "-8.12%"
+      },
+      {
+        "label": "Gold futures",
+        "value": "4074.20",
+        "change": "+0.16%"
+      },
+      {
+        "label": "Copper futures",
+        "value": "6.392",
+        "change": "+1.14%"
       }
     ]
   },
   "marketPulse": {
     "usGlobal": [
       {
-        "what": "US indices show rotation rather than panic",
-        "why": "S&P and Dow rose modestly, Nasdaq and QQQ lagged, VIX stayed below 20, and equal-weight RSP outperformed.",
+        "what": "US indices closed mixed with positive equal-weight breadth",
+        "why": "Investors rotated away from crowded AI/platform beta while Dow/cyclicals and financials cushioned the tape; Yahoo/CNBC/Trading Economics showed S&P roughly flat, Nasdaq weaker, Dow higher.",
         "tickers": [
-          "SPY",
-          "QQQ",
-          "DIA",
+          "^GSPC",
+          "^IXIC",
+          "^DJI",
           "RSP",
-          "^VIX"
-        ],
-        "urgency": "medium",
-        "implication": "Stay invested but expect factor churn; avoid extrapolating mega-cap weakness into total-market collapse."
-      },
-      {
-        "what": "Market focus shifts to heavy earnings/Fed week",
-        "why": "CNBC says the week ahead has major challenges for averages; Fortune notes Microsoft/Meta, then Apple/Amazon earnings arrive into AI capex skepticism.",
-        "tickers": [
-          "MSFT",
-          "META",
-          "AAPL",
-          "AMZN",
           "QQQ"
         ],
-        "urgency": "high",
-        "implication": "Forward guidance on AI capex, margins and monetization will matter more than headline EPS."
+        "urgency": "medium",
+        "implication": "Not a portfolio-level sell signal; it is a leadership-quality test before megacap tech earnings."
       }
     ],
     "ratesMacro": [
       {
-        "what": "Fed risk has shifted hawkish",
-        "why": "Fresh Bloomberg/Yahoo and Seeking Alpha headlines say bond traders see rising odds of a hike or hawkish hold as oil/inflation risks rebound; 10Y around 4.69%, 2Y around 4.33%.",
+        "what": "Fed hold expected, but policy path remains sensitive to oil/inflation expectations",
+        "why": "Fresh CNBC/CNN coverage says the Fed meets in an unusually confusing environment; recent CPI was helped by lower energy, while oil/geopolitical swings can reprice breakevens and term premium.",
         "tickers": [
           "^TNX",
           "^TYX",
-          "DXY",
-          "TLT"
+          "DX-Y.NYB",
+          "SGD=X"
         ],
         "urgency": "high",
-        "implication": "Higher discount rates hit REITs, long-duration tech and property proxies; cash at ~4% remains useful dry powder."
+        "implication": "KL should treat cash yield as useful optionality; REIT adds require conviction that long yields are capped, not just one soft oil day."
       }
     ],
     "asiaSingapore": [
       {
-        "what": "Singapore equities stable; banks firm, REITs lag",
-        "why": "STI +0.12%; DBS/OCBC/UOB rose modestly while rate-sensitive REITs were softer. Business Times reports APAC living-sector demand, but listed REIT valuations still answer to rates.",
+        "what": "Singapore equities/banks steady; macro mixed",
+        "why": "DBS/OCBC/UOB rose modestly and ES3 +0.71%; Business Times reported June factory output +7.2% y/y, below expectations and slower than May, while MAS very slightly tightened policy.",
         "tickers": [
-          "^STI",
           "D05.SI",
           "O39.SI",
           "U11.SI",
-          "A17U.SI",
-          "C38U.SI"
+          "ES3.SI",
+          "AJBU.SI",
+          "A17U.SI"
         ],
         "urgency": "medium",
-        "implication": "SG banks remain income ballast; add REIT exposure only on yield-spread discipline."
+        "implication": "Banks remain cash-flow ballast; REITs still depend more on long-end yields and financing spreads than on one local activity print."
       }
     ],
     "commodities": [
       {
-        "what": "Oil pulled back, but chokepoint risk remains priced",
-        "why": "OilPrice/Standard Chartered says oil markets may need to price both Hormuz and Bab el-Mandeb risks even as prices eased on renewed US-Iran diplomacy hopes.",
+        "what": "Oil fell sharply while metals were stable/firm",
+        "why": "WTI -8.12% and Brent -9.13% as markets weighed easing West Asia tension, record US production/strategic reserves and weaker China demand against chokepoint risks; copper +1.14%, gold and silver little changed.",
         "tickers": [
           "CL=F",
           "BZ=F",
-          "XLE"
+          "GC=F",
+          "SI=F",
+          "HG=F",
+          "GLD",
+          "SLV",
+          "COPX",
+          "URNM"
         ],
         "urgency": "high",
-        "implication": "Oil-down relief can reverse quickly; inflation expectations and long yields remain the key 2nd-order channel."
-      },
-      {
-        "what": "Silver crossed KL commodity threshold; gold and copper firm",
-        "why": "Silver futures +2.01%, gold +0.49%, copper +0.62%; metal strength is more credible if real yields stop rising or USD weakens.",
-        "tickers": [
-          "SLV",
-          "GLD",
-          "COPX",
-          "HG=F"
-        ],
-        "urgency": "medium",
-        "implication": "Scarcity sleeve remains a diversifier against AI infrastructure demand and fiat/energy uncertainty, but size should remain capped."
+        "implication": "Lower oil helps near-term inflation/rates, but scarcity assets should be assessed by supply discipline and capex bottlenecks, not daily war headlines."
       }
     ],
     "geopolitics": [
       {
-        "what": "US-Iran pause reduces immediate oil tail risk, not structural route risk",
-        "why": "Business Times reports the US paused strikes and Iran said it will halt strikes if the pause holds; OilPrice warns route-risk premium may extend beyond Hormuz.",
+        "what": "Middle East chokepoint risk faded but did not disappear",
+        "why": "CNBC/Business Times noted easing Iran tensions; OilPrice/Standard Chartered background still flags two-chokepoint risk via Hormuz/Red Sea if escalation returns.",
         "tickers": [
           "CL=F",
           "BZ=F",
-          "DXY",
-          "GLD"
-        ],
-        "urgency": "high",
-        "implication": "Base case is volatile de-escalation, but escalation transmits through oil, inflation expectations, rates and margins before generic safe-haven demand."
-      },
-      {
-        "what": "Indonesian metal export delays from rare-earth checks",
-        "why": "Business Times reports metal exports face delays due to rare-earth checks and domestic-use prioritization.",
-        "tickers": [
-          "COPX",
-          "REMX",
-          "TSM",
-          "NVDA"
+          "DXY"
         ],
         "urgency": "medium",
-        "implication": "3rd order: resource nationalism raises input volatility for electrification/AI supply chains and supports scarcity-asset optionality."
+        "implication": "Transmission path is oil -> inflation expectations -> yields/USD -> equity multiples and REIT financing costs; not simply “geopolitics = gold up”."
       }
     ]
   },
   "portfolioNews": {
     "moves": [
       {
-        "what": "Semicap/equipment sleeve sold off: MU -6.99%, AMAT -4.72%, LRCX -4.56%, KLAC -3.75%; TSM -2.93% narrowly below threshold.",
-        "why": "Fresh AI coverage shows investors questioning whether hyperscaler AI capex earns adequate returns; semis also face crowded-position risk after a strong run.",
-        "tickers": [
-          "MU",
-          "AMAT",
-          "LRCX",
-          "KLAC",
-          "TSM"
-        ],
-        "urgency": "high",
-        "implication": "Does not damage KL’s long-term scarcity thesis unless order books, HBM pricing, foundry utilization or capex plans deteriorate. 2nd order: hyperscaler capex skepticism can hurt equipment multiples before actual capex cuts appear.",
-        "action": "HOLD; ADD only on staged -10% to -15% further drawdowns or confirmed order strength; invalidator = hyperscalers cut AI capex or memory/HBM pricing rolls over."
-      },
-      {
-        "what": "Uranium sleeve hit threshold: URNM -3.15%, URA -3.01%.",
-        "why": "Risk de-grossing in crowded scarcity trades; no fresh thesis-breaking nuclear demand headline found in the last-24h scan.",
-        "tickers": [
-          "URNM",
-          "URA"
-        ],
-        "urgency": "medium",
-        "implication": "AI/power demand plus energy-security thesis unchanged. Volatility is expected because uranium miners trade like high-beta resource equities.",
-        "action": "HOLD/WATCH; add only if spot/term uranium and reactor contracting remain supportive while ETF price derates; invalidator = reactor delays + falling term prices."
-      },
-      {
-        "what": "Silver crossed commodity threshold: SI futures +2.01%; SLV +1.02% at last ETF close.",
-        "why": "Metals bid persisted despite oil pullback; likely mix of scarcity/monetary hedge and momentum.",
-        "tickers": [
-          "SI=F",
-          "SLV"
-        ],
-        "urgency": "medium",
-        "implication": "Portfolio diversifier working, but silver is volatile and liquidity-sensitive.",
-        "action": "HOLD; do not chase unless real yields fall and USD weakens together."
-      },
-      {
-        "what": "Singapore banks up modestly; REITs soft.",
-        "why": "Banks benefit from resilient rates/NIM perception; listed REITs remain pressured by high long yields.",
-        "tickers": [
-          "D05.SI",
-          "O39.SI",
-          "U11.SI",
-          "A17U.SI",
-          "C38U.SI",
-          "AJBU.SI"
-        ],
-        "urgency": "medium",
-        "implication": "SG dividend sleeve is ballast; REIT adds need yield-spread triggers.",
-        "action": "HOLD; ADD REITs only when yield spreads compensate for 10Y/SGD rate risk."
-      }
-    ],
-    "thesisImpact": [
-      {
-        "what": "AI scarcity thesis stress-test",
-        "why": "Market is separating AI capex beneficiaries from AI capex funders and demanding evidence of monetization.",
+        "what": "NVDA fell 4.99%, pulling AI hardware lower",
+        "why": "Reports of a potential $250B Nvidia financing/backstop for OpenAI infrastructure revived circular-financing fears: vendor funds customer, customer buys vendor chips, revenue quality gets questioned.",
         "tickers": [
           "NVDA",
-          "AVGO",
-          "TSM",
+          "QQQ"
+        ],
+        "urgency": "high",
+        "implication": "Long-term compute scarcity is not invalidated, but terminal-margin and cash-conversion assumptions face more scrutiny. 2nd order: if hyperscaler/vendor financing substitutes for organic demand, semicap orders get more cyclical; 3rd order: credit markets may start pricing AI data-center funding risk.",
+        "action": "HOLD / WATCH. Add only if drawdown reaches valuation support and hyperscaler capex remains internally funded; invalidator is evidence of major AI buildouts needing vendor guarantees to clear."
+      },
+      {
+        "what": "ASML -5.80%, LRCX -4.46%, AMAT -3.61%, KLAC -3.40%",
+        "why": "Semicap/equipment sold with AI ROI worries and reports/headlines suggesting air coming out of the AI bubble; these names are second-derivative beneficiaries of HBM/foundry capex, so they are hit when capex durability is questioned.",
+        "tickers": [
           "ASML",
           "LRCX",
           "AMAT",
           "KLAC",
-          "MU",
-          "MSFT",
-          "AMZN",
-          "GOOG",
-          "META"
+          "TSM",
+          "MU"
         ],
         "urgency": "high",
-        "implication": "Thesis remains intact but expected returns shift from “everything AI up” to selectivity: equipment/memory/foundry need order durability; hyperscalers need ROI disclosure.",
-        "action": "HOLD core; rebalance only into dislocations, not headlines."
+        "implication": "Thesis damage is limited unless order books/capex plans roll over; current move looks mostly positioning/valuation. 2nd order: lower equipment valuations may create better scarcity-entry points; 3rd order: if capex is delayed, memory/foundry supply tightness can worsen later.",
+        "action": "HOLD; ADD in tranches only on further 10-15% de-rating or confirmed orders/backlog strength; invalidator is broad hyperscaler capex cuts or wafer-fab equipment order cancellations."
+      },
+      {
+        "what": "SNPS rose 4.16%",
+        "why": "Fresh Synopsys announcements at DAC highlighted agentic AI chip-design workflows with Microsoft and use by AMD, including claims of faster validation/debug.",
+        "tickers": [
+          "SNPS",
+          "MSFT",
+          "AMD"
+        ],
+        "urgency": "medium",
+        "implication": "Positive for KL’s EDA/IP toll-road sleeve: AI increases design complexity and demand for automation; less cyclical than chip producers.",
+        "action": "HOLD / ADD on weakness; invalidator is if AI-assisted EDA compresses pricing power or customers internalize workflows."
+      },
+      {
+        "what": "SPGI rose 3.15%",
+        "why": "Fresh market-mover coverage attributed the move to earnings beating consensus, stronger ratings revenue from corporate bond issuance and higher full-year guidance.",
+        "tickers": [
+          "SPGI"
+        ],
+        "urgency": "medium",
+        "implication": "Confirms financial toll-road thesis: if credit issuance recovers, SPGI monetizes activity without taking credit risk.",
+        "action": "HOLD; ADD only on multiple compression; invalidator is credit issuance freeze or regulatory pressure on ratings economics."
+      },
+      {
+        "what": "Singapore banks and REITs moved modestly",
+        "why": "Banks gained around 0.4-0.7%; major KL REITs were within normal ranges.",
+        "tickers": [
+          "D05.SI",
+          "O39.SI",
+          "U11.SI",
+          "AJBU.SI",
+          "A17U.SI",
+          "BUOU.SI",
+          "M44U.SI"
+        ],
+        "urgency": "low",
+        "implication": "No abnormal portfolio action required; banks remain income ballast, REITs remain yield-sensitive optionality.",
+        "action": "IGNORE daily noise; WATCH 10Y/SGD rates and refinancing spreads."
+      }
+    ],
+    "thesisImpact": [
+      {
+        "what": "AI scarcity thesis stress test",
+        "why": "Market is shifting from “can supply meet AI demand?” to “who funds demand and at what return?”.",
+        "tickers": [
+          "NVDA",
+          "ASML",
+          "LRCX",
+          "KLAC",
+          "AMAT",
+          "SNPS",
+          "MSFT",
+          "GOOG"
+        ],
+        "urgency": "high",
+        "implication": "Best-quality toll roads (EDA, equipment leaders, hyperscalers with real cash flow) should survive; weakest link is circular/vendor-financed demand.",
+        "action": "Upgrade quality filter; do not chase every chip dip."
       }
     ]
   },
   "narratives": [
     {
-      "title": "AI capex revolt enters earnings week",
-      "description": "Investors are no longer rewarding AI spend automatically. Market wants proof that capex becomes revenue, margins and free cash flow. Suppliers can benefit first, but if funders cut budgets, second-order pressure hits equipment and memory.",
-      "source": "Yahoo Finance / Fortune, last 24h",
+      "title": "AI capex moves from growth story to financing-quality story",
+      "description": "Nvidia/OpenAI financing reports made investors ask whether reported chip demand is self-funded by end customers or partly vendor-financed. If the latter grows, revenue durability and multiples should be lower even if unit demand remains high.",
+      "source": "Yahoo Finance / CNBC / 24/7 Wall St, within last 24h",
       "tickers": [
-        "MSFT",
-        "META",
-        "AMZN",
-        "GOOG",
         "NVDA",
-        "AVGO",
-        "MU",
+        "MSFT",
+        "GOOG",
         "ASML",
-        "LRCX"
+        "LRCX",
+        "AMAT",
+        "KLAC",
+        "SNPS"
       ],
-      "stage": "mid-cycle scrutiny",
-      "priceImpact": "High dispersion; multiple compression for weak ROI stories, support for proven bottlenecks."
+      "stage": "early repricing",
+      "priceImpact": "Negative for high-multiple semis; constructive for cash-rich hyperscalers and EDA if capex remains disciplined."
     },
     {
-      "title": "Oil diplomacy relief versus chokepoint premium",
-      "description": "Immediate oil spike cooled on US-Iran pause headlines, but analysts warn markets may need to price multiple chokepoints. Transmission path is oil -> inflation expectations -> Fed reaction -> yields/USD -> equity multiples and REIT cap rates.",
-      "source": "Business Times / OilPrice, last 24h",
+      "title": "Oil down does not equal geopolitics solved",
+      "description": "The market priced easing West Asia tension today, but chokepoint risk remains a tail. The correct chain is oil supply risk -> energy prices -> inflation expectations/real yields/USD -> equity multiples and SGD rates.",
+      "source": "CNBC / CNBC TV18 / OilPrice, within last 24h",
       "tickers": [
         "CL=F",
         "BZ=F",
+        "GC=F",
         "DXY",
-        "^TNX",
-        "GLD"
+        "^TNX"
       ],
-      "stage": "volatile de-escalation",
-      "priceImpact": "Inflation/rates volatility remains elevated."
+      "stage": "volatile consolidation",
+      "priceImpact": "Near-term supports duration and REITs; renewed oil spike would pressure them."
     },
     {
-      "title": "Resource nationalism as AI-infrastructure tail risk",
-      "description": "Indonesia metal export checks show how critical materials can become policy tools. Third order: supply-chain friction raises option value of diversified copper/uranium/metals exposure.",
-      "source": "Business Times, last 24h",
+      "title": "Singapore ballast with a policy wrinkle",
+      "description": "MAS very slightly tightened while factory output slowed versus expectations. A firmer SGD helps imported inflation but can weigh on exporters; banks benefit from resilient rates while REITs need financing relief.",
+      "source": "Business Times, within last 24h",
       "tickers": [
-        "COPX",
-        "URNM",
-        "TSM",
-        "NVDA"
+        "ES3.SI",
+        "D05.SI",
+        "O39.SI",
+        "U11.SI",
+        "AJBU.SI",
+        "A17U.SI"
       ],
-      "stage": "early but persistent",
-      "priceImpact": "Supports scarcity premium over multi-year horizon."
+      "stage": "steady",
+      "priceImpact": "Modestly positive banks, mixed REITs/export cyclicals."
     }
   ],
   "secondOrderEffects": [
     {
-      "text": "If oil rebounds, headline inflation expectations rise; if the Fed leans hawkish, real yields/USD can rise; that can cap gold and compress tech/REIT multiples even while energy producers benefit.",
-      "implication": "Watch real yields and DXY, not just crude headlines."
+      "text": "If oil stays lower for several sessions, inflation breakevens and long yields can ease, helping REITs, long-duration tech and mortgage sentiment; if the oil drop is merely geopolitical positioning unwind, the relief trade is fragile.",
+      "implication": "Do not add REITs solely on one crude selloff; require 10Y yield confirmation."
     },
     {
-      "text": "AI capex skepticism first hurts hyperscaler multiples; second order hits semicap orders only if CFOs actually reduce budgets; third order would slow grid/power/copper demand if data-center buildout is deferred.",
-      "implication": "Separate narrative derating from capex-cycle evidence before changing KL’s scarcity allocation."
+      "text": "Vendor-financed AI buildouts may sustain near-term chip shipments but reduce revenue quality. The second order is multiple compression for hardware; the third order is tighter credit scrutiny for data-center projects and power/grid counterparties.",
+      "implication": "Favor balance-sheet funded hyperscalers, EDA/IP, and grid bottleneck beneficiaries over weaker AI funding chains."
     },
     {
-      "text": "Singapore bank strength plus REIT weakness is consistent with higher-for-longer rates: banks earn on spreads while REIT cap rates and refinancing costs stay under pressure.",
-      "implication": "Keep SG dividend ballast, but demand valuation discipline on REIT adds."
+      "text": "Semicap selloffs can be healthy if they reset valuations while structural HBM/foundry demand remains. If capex gets postponed, future supply tightness could actually intensify, supporting survivors later.",
+      "implication": "Keep watchlist levels ready instead of reacting emotionally to -4%/-6% days."
     }
   ],
   "actionableIdeas": {
     "investment": [
       {
-        "thesis": "Maintain the AI-scarcity barbell: semis/EDA/equipment + grid/power/metals, funded with meaningful cash ballast.",
-        "trigger": "Add in tranches only on 10-15% sleeve drawdowns plus unchanged capex/order evidence.",
-        "whyNow": "Market is testing AI ROI, creating dispersion rather than invalidating compute scarcity.",
+        "thesis": "Accumulate highest-quality AI bottlenecks only on valuation reset, prioritizing EDA/IP and equipment leaders over vendor-financed pure beta.",
+        "trigger": "Further 10-15% drawdown in ASML/LRCX/KLAC/AMAT or SNPS weakness while backlog/capex commentary remains intact.",
+        "whyNow": "Market is finally questioning AI financing quality; that can create good entries in true toll roads.",
         "horizon": "3-7 years",
-        "invalidator": "Hyperscalers cut AI capex, HBM pricing rolls over, or foundry/equipment order books deteriorate."
+        "invalidator": "Hyperscaler capex cuts, order cancellations, or evidence that AI demand depends materially on supplier financing."
       },
       {
-        "thesis": "Use Singapore banks as income ballast; be selective on REITs.",
-        "trigger": "REIT yield spreads widen materially versus SGD rates or 10Y yield breaks lower sustainably.",
-        "whyNow": "Rates remain high and REIT refinancing risk is not gone.",
+        "thesis": "Keep Singapore banks as ballast and income engines; be more selective on REITs until long-end rates confirm a downtrend.",
+        "trigger": "10Y UST below ~4.4% with SGD funding spreads stable, or REIT discounts widening without DPU damage.",
+        "whyNow": "MAS tightening and resilient bank moves support SGD ballast; REIT relief requires rates confirmation.",
         "horizon": "1-5 years",
-        "invalidator": "Credit stress or property-level occupancy/capital-value deterioration."
+        "invalidator": "Credit stress, NIM compression with weak loan growth, or refinancing costs staying high."
       }
     ],
     "trading": [
       {
-        "thesis": "Do not chase semicap weakness blindly; wait for earnings/guidance confirmation.",
-        "trigger": "Buy tactical dips only after management confirms AI orders/capex durability or after capitulation gap-downs stabilize.",
-        "whyNow": "MU/AMAT/LRCX/KLAC crossed abnormal-move thresholds.",
-        "horizon": "days to weeks",
-        "invalidator": "Guidance cuts or order cancellations."
+        "thesis": "Avoid chasing semis on the first bounce; use failed-bounce behavior as a positioning signal.",
+        "trigger": "SOX/QQQ rebound that cannot reclaim prior support while NVDA stays below the psychologically important $200 area.",
+        "whyNow": "AI winners are crowded and the narrative has shifted to ROI/funding quality.",
+        "horizon": "days-weeks",
+        "invalidator": "Clean hyperscaler earnings showing internally funded capex and accelerating AI revenue conversion."
       },
       {
-        "thesis": "Oil-risk hedge is tactical, not permanent.",
-        "trigger": "If Brent reclaims recent spike levels on confirmed shipping disruption, hedge inflation/rates exposure rather than buy generic safe havens.",
-        "whyNow": "Diplomacy eased prices but chokepoint risk remains.",
-        "horizon": "days to months",
-        "invalidator": "Verified durable de-escalation and normalized vessel traffic."
+        "thesis": "Oil relief trade can support duration-sensitive assets tactically.",
+        "trigger": "WTI holds below mid-$80s and 10Y yield drifts lower for multiple sessions.",
+        "whyNow": "Crude fell sharply despite still-present geopolitical risk.",
+        "horizon": "days-weeks",
+        "invalidator": "Renewed Strait/Red Sea disruption, tanker insurance spike, or breakevens rising despite lower spot crude."
       }
     ],
     "watchlist": [
       {
-        "thesis": "Fed meeting tone and PCE/GDP data decide whether long yields stay above the pain line.",
-        "trigger": "10Y sustained >4.75-4.85% or 30Y >5.25%.",
-        "whyNow": "Bond traders are re-pricing hike risk.",
+        "thesis": "Fed communication this week is the macro fulcrum.",
+        "trigger": "Any hint the Fed is more worried about oil-driven inflation expectations than growth.",
+        "whyNow": "Markets expect a hold but policy reaction function is uncertain.",
         "horizon": "this week",
-        "invalidator": "Soft inflation data plus dovish Fed language."
+        "invalidator": "Fed explicitly looks through oil volatility and real yields fall."
       },
       {
-        "thesis": "AI ROI disclosure is the key earnings trigger.",
-        "trigger": "Hyperscalers quantify AI revenue contribution, utilization, or capex discipline.",
-        "whyNow": "Market is no longer paying for capex without proof.",
-        "horizon": "this earnings week",
-        "invalidator": "Vague monetization with rising capex intensity."
+        "thesis": "AI ROI proof points matter more than capex headlines.",
+        "trigger": "MSFT/GOOG/AMZN/META earnings: AI revenue, cloud margins, capex funded by operating cash flow, and no reliance on vendor financing.",
+        "whyNow": "The market is punishing capex without visible returns.",
+        "horizon": "earnings season",
+        "invalidator": "Cloud growth accelerates with stable margins and clear AI monetization."
       }
     ]
   },
   "riskWatch": [
     {
-      "name": "Hawkish Fed / oil-inflation feedback loop",
+      "name": "AI circular-financing / ROI risk",
       "level": "High",
-      "description": "Oil shock or sticky inflation forces tighter Fed rhetoric, lifting real yields and hurting duration assets.",
-      "mitigation": "Keep cash ballast; avoid over-adding REITs/long-duration tech until yield trend stabilizes."
+      "description": "If AI demand requires vendor guarantees or customer financing, reported growth deserves lower multiples and semicap orders become more fragile.",
+      "mitigation": "Favor cash-flow rich hyperscalers, EDA/IP and equipment leaders; avoid leverage or low-quality AI proxies."
     },
     {
-      "name": "AI capex ROI disappointment",
-      "level": "High",
-      "description": "Hyperscaler earnings fail to prove returns on AI spend, causing more multiple compression and possible second-order supplier weakness.",
-      "mitigation": "Hold core scarcity names; add only on evidence-backed dislocations."
+      "name": "Oil-to-rates inflation shock",
+      "level": "Medium",
+      "description": "A renewed Middle East/chokepoint escalation could lift oil, inflation expectations, USD and yields, hurting REITs/duration despite safe-haven headlines.",
+      "mitigation": "Keep cash ballast; wait for yield confirmation before increasing REIT duration."
     },
     {
-      "name": "Middle East chokepoint escalation",
-      "level": "Medium-High",
-      "description": "Pause in strikes may fail; Hormuz/Bab el-Mandeb route risk can reprice oil, shipping, inflation and USD liquidity.",
-      "mitigation": "Monitor Brent, freight/insurance headlines, DXY and breakevens; do not rely on simplistic gold hedging."
+      "name": "Credit/liquidity tightening",
+      "level": "Medium",
+      "description": "Higher long rates or AI data-center funding concerns could widen credit spreads, affecting SPGI revenue cyclicality and broader risk appetite.",
+      "mitigation": "Watch HY spreads, bank funding, and data-center debt issuance terms; preserve dry powder."
     }
   ],
   "keyEvents": [
     {
-      "text": "Fed meeting week: markets expect hold/hawkish debate as oil and inflation risks rebound.",
+      "text": "Fed meeting this week; market expects a hold but wants guidance on inflation/oil sensitivity.",
       "icon": "🏦",
-      "source": "Yahoo/Bloomberg, Seeking Alpha"
+      "source": "CNBC/CNN/CME FedWatch search results within last 24h"
     },
     {
-      "text": "Big Tech earnings: Microsoft and Meta, then Apple and Amazon, face AI capex ROI scrutiny.",
-      "icon": "🤖",
-      "source": "Fortune / Yahoo Finance"
+      "text": "US tech earnings focus intensifies after AI capex/financing concerns hit semis.",
+      "icon": "🧠",
+      "source": "CNBC/Yahoo Finance within last 24h"
     },
     {
-      "text": "US-Iran pause and diplomacy headlines lowered immediate oil pressure, but chokepoint risk remains.",
+      "text": "Singapore June factory output rose 7.2% y/y, below expectations and slower than May; MAS very slightly tightened policy.",
+      "icon": "🇸🇬",
+      "source": "Business Times within last 24h"
+    },
+    {
+      "text": "Oil sold off sharply as West Asia tensions eased, but chokepoint risk remains a live transmission channel.",
       "icon": "🛢️",
-      "source": "Business Times / OilPrice"
-    },
-    {
-      "text": "Indonesia metal exports face delays from rare-earth checks.",
-      "icon": "⛏️",
-      "source": "Business Times"
+      "source": "CNBC/CNBC TV18/OilPrice within last 24h"
     }
   ],
   "bottomLine": {
-    "whatMatters": "This is a rotation/rates/AI-ROI regime, not a clean bull or bear signal. Watch Fed tone, real yields/DXY, oil chokepoints, and hyperscaler capex guidance.",
-    "whatToDo": "Keep the barbell: cash ballast + high-quality scarcity assets. HOLD core semis/equipment despite one-day drawdowns; add only on evidence-backed weakness. Stay disciplined on REITs until rates compensate.",
-    "whatToIgnore": "One-day AI panic, generic safe-haven narratives, and stale headlines older than 24h."
+    "whatMatters": "The broad regime is still risk-selective, not systemic risk-off: market breadth held up, rates/oil eased, but AI/semis are undergoing a quality-of-demand repricing.",
+    "whatToDo": "Hold core barbell. Keep cash/CPF/property ballast intact. For KL’s scarcity sleeve, require evidence of self-funded AI capex and use drawdowns to upgrade quality rather than average down indiscriminately.",
+    "whatToIgnore": "Do not overreact to one-day semiconductor price drops or generic geopolitical safe-haven narratives; focus on funding quality, real yields, USD, oil persistence and earnings proof points."
   },
-  "date": "2026-07-27",
-  "lastUpdated": "2026-07-26T23:30:08Z"
+  "date": "2026-07-28",
+  "lastUpdated": "2026-07-27T23:33:24.601351+00:00"
 }
